@@ -11,6 +11,7 @@
 >“Blessed are you when people insult you, persecute you and falsely say all kinds of evil against you because of me" Matt (5:12 NIV)
 
 Hostility is often expressed through disbelief in our message, unbelief in God, and negative attitudes towards Christ, the Gospel, the church, or Christians.  Sometimes, this hostility escalates to slander, discrimination, or even persecution of believers.  I am sure you have seen or experienced all of this.   For this very reason, Jesus reminded us that despite the hostility of *The World* and the potential for persecution, we, as disciples of Christ, must live out our identity and calling as the salt of the earth.
+  
 
 Previously, I pointed out that we are called to be the salt of the earth, as stated in v13a.
 

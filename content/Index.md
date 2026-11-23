@@ -13,7 +13,9 @@ aliases:
 
 # The Sermon on the Mount: Kingdom Character, Witness, and Heart Ethics
 
-Welcome to the **Lakeside International Church (LIC) Sermon on the Mount Collection**. This index serves as both a narrative roadmap through Jesus' foundational teaching in **Matthew 5:3–32** and a central jump site to access full sermon manuscripts, bilingual study editions, presentation slides, and PDF transcripts.
+
+Welcome to the Sermon on the Mount Collection**. This index serves as both a narrative roadmap through Jesus' foundational teaching in **Matthew 5:3–32** and a central jump site to access full sermon manuscripts, bilingual study editions, presentation slides, and PDF transcripts.
+
 
 ---
 
