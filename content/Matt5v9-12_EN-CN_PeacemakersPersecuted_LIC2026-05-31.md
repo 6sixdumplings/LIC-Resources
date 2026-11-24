@@ -1,6 +1,6 @@
-`---`
-Title: "Matt 马太福音 5:9-12 The Values of the Kingdom of Heaven: Peacemakers, Persecuted, and Salt of the Earth 天国的核心价值观：使人和睦、为义受逼迫与地上的盐  (English/Chinese)"
-`---`
+---
+Title: "Matt 马太福音 5:9-12 The Values of the Kingdom of Heaven: Peacemakers, Persecuted 天国的核心价值观：使人和睦、与为义受逼迫地 (English/Chinese)"
+---
 
 ---
 ## Introduction & Background 引言与背景
@@ -132,3 +132,4 @@ Persecution is a normal Christian experience for those who live out kingdom valu
 * MacArthur, John. 1985. *Matthew 1–7*. MacArthur New Testament Commentary. Chicago: Moody Publishers.
 * Poole, Matthew. 1853. *Annotations Upon the Holy Bible*. New York: Robert Carter and Brothers.
 * Stott, John R. W. 1985. *The Message of the Sermon on the Mount (Matthew 5–7): Christian Counter-Culture*. The Bible Speaks Today. Leicester: Inter-Varsity Press.
+

@@ -1,7 +1,7 @@
-### Matt 5v27-32 Die Stryd om die Hart
-`---`
-Title: "Matteus 5:27-29 Die Stryd om die Hart (Afrikaans)"
-`---`
+---
+Title: Matteus 5:27-29 Die Stryd vir die Hart
+---
+
 (Date Preached:  26 October 2026)
 #### Inleiding
 

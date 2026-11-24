@@ -1,12 +1,9 @@
-`---`
-Title: "Matt 5:7-12 The Manifesto of the Kingdom of Heaven 《天国宣言》 (English/Chinese)"
-`---`
-(Date Preached:  22 March 2026)
-
+---
+Title: '"Matt 5:7-12 The Manifesto of the Kingdom of Heaven 《天国宣言》 (English/Chinese)"'
+(Date Preached: 22 March 2026)
 ---
 
-## 1. Introduction: Kingdom Manifesto vs. Human Philosophy
-### 引言：天国宣言与人类哲学
+## Introduction: Kingdom Manifesto vs. Human Philosophy引言：天国宣言与人类哲学
 
 It is a joy to continue our journey through the Sermon on the Mount (Matthew 5–7) as we turn to the second set of Beatitudes in Matthew 5:7–12. 
 今天我们继续探寻《山上宝训》（马太福音 5–7 章）的旅程，进入马太福音 5:7–12 的第二组八福，真是充满喜乐。
@@ -23,8 +20,7 @@ In the Beatitudes, King Jesus unveils the manifesto of the Kingdom of Heaven. Li
 
 ---
 
-## 2. Review: The First Four Beatitudes and Their Inner Logic
-### 复习：前四条八福与逻辑关联
+### Review: The First Four Beatitudes and Their Inner Logic复习：前四条八福与逻辑关联
 
 In Matthew 5:3–6, Jesus established the fundamental inward dispositions of His disciples:
 
@@ -39,8 +35,7 @@ In Matthew 5:3–6, Jesus established the fundamental inward dispositions of His
 
 To be **poor in spirit** means coming to God empty-handed, recognizing our spiritual bankruptcy like the prodigal son. Recognizing our sin leads us to **mourn** in deep repentance, which produces a gentle, humbled **meekness** before God, creating a deep **hunger and thirst for Christ's righteousness**.
 
-### The Structural Link Between the First and Second Four Beatitudes
-### 前四条与后四条八福之间的逻辑纽带
+### The Structural Link Between the First and Second Four Beatitudes 前四条与后四条八福之间的逻辑纽带
 
 There is a precise parallel connection between the root dispositions (Matt 5:3–6) and their practical fruit (Matt 5:7–10):
 
@@ -60,15 +55,14 @@ Root Dispositions (Matt 5:3–6)         Outward / Relational Fruit (Matt 5:7–
 
 ---
 
-## 3. Part I: Blessed Are the Merciful (Matthew 5:7)
-### 第一部分：怜恤人的人有福了（马太福音 5:7）
+## 1. Blessed Are the Merciful (Matthew 5:7) 第一部分：怜恤人的人有福了（马太福音 5:7）
 
 > **Matthew 5:7**  
 > *"Blessed are the merciful, for they shall receive mercy."*  
 > **7a** μακάριοι οἱ ἐλεήμονες, **7b** ὅτι αὐτοὶ ἐλεηθήσονται.  
 > **7a** 怜恤人的人有福了！ **7b** 因为他们必蒙怜恤。
 
-### 1. Old Testament Foundation & Meaning of *Eleēmōn*
+### 1.1 Old Testament Foundation & Meaning of *Eleēmōn*
 Jesus draws directly upon the Old Testament character of God, who revealed Himself as *"gracious and compassionate, slow to anger and rich in love"* (Psalm 145:8–9; 耶和华有恩惠，有怜悯，不轻易发怒，大有慈爱). He contrasts divine mercy with human legalism, recalling Hosea 6:6: *"For I desire mercy, not sacrifice, and acknowledgment of God rather than burnt offerings."* (我喜爱良善/怜悯，不喜爱祭祀；喜爱认识神，胜于燔祭。)
 
 The Greek word for merciful (**ἐλεήμων**, *eleēmōn*) denotes active, tangible compassion rather than passive emotion:
@@ -76,7 +70,7 @@ The Greek word for merciful (**ἐλεήμων**, *eleēmōn*) denotes active, t
 * **To the Desperate Father (Matt 17:14–18)**: When disciples failed, the father pleaded for mercy, and Jesus responded with compassion to heal the boy.
 * **To the Blind Men Near Jericho (Matt 20:30–34)**: They cried, *"Son of David, have mercy on us!"* Jesus stopped, listened, touched their eyes, and restored their sight.
 
-### 2. Receiving and Giving Mercy: Two Sides of the Same Coin
+### 1.2 Receiving and Giving Mercy: Two Sides of the Same Coin
 Jesus does not mean that human mercy earns divine salvation. Rather, receiving and extending mercy are inseparable:
 * **The Parable of the Unforgiving Servant (Matt 18:33)**: *"Shouldn't you have had mercy on your fellow servant just as I had on you?"* (你不应当怜悯你的同伴，正如我怜悯你吗？)
 
@@ -92,7 +86,7 @@ Lutheran theologian Richard C. H. Lenski clarifies the distinction between mercy
 
 ---
 
-## 4. Part II: Blessed Are the Pure in Heart (Matthew 5:8)
+## 2. Blessed Are the Pure in Heart (Matthew 5:8)
 ### 第二部分：清心的人有福了（马太福音 5:8）
 
 > **Matthew 5:8**  
@@ -100,7 +94,7 @@ Lutheran theologian Richard C. H. Lenski clarifies the distinction between mercy
 > **8a** μακάριοι οἱ καθαροὶ τῇ καρδίᾳ, **8b** ὅτι αὐτοὶ τὸν θεὸν ὄψονται.  
 > **8a** 清心的人有福了！ **8b** 因为他们必得见神。
 
-### 1. Old Testament Background & Meaning of *Katharos*
+### 2.1 Old Testament Background & Meaning of *Katharos*
 Jesus draws upon the liturgical requirements of the Old Testament Scriptures:
 * **Psalm 24:3–4**: *"Who may ascend the mountain of the Lord? He who has clean hands and a pure heart..."* (手洁心清，不向虚妄)
 * **Psalm 51:10**: David's repentant cry: *"Create in me a clean heart, O God."* (神啊，求你为我造清洁的心)
@@ -111,14 +105,14 @@ The **heart** (**καρδίᾳ**, *kardia*) represents the entire inner life—t
 
 Judas was considered "not clean" (John 13:11) due to divided loyalty. Purity of heart implies **single-minded devotion** to God without double-mindedness (James 4:8: *"Purify your hearts, you double-minded"* / 洁净你们的手，清洁你们的心).
 
-### 2. The Promise: "For They Shall See God"
+### 2.2 The Promise: "For They Shall See God"
 In Old Testament history, Israel's elders ate in God's presence on Sinai (Exodus 24:10–11). Yet no unholy sinner could behold God's full glory and live.
 * **Present Spiritual Vision**: Believers see the Father through faith in Jesus Christ (John 14:9; R.C. Sproul).
 * **Eschatological Vision**: As F.F. Bruce and R.T. France note, "the vision of God" is the ultimate goal reserved for the New Jerusalem (Revelation 22:3–4: *"They will see His face"* / 也要见祂的面; 1 John 3:2).
 
 ---
 
-## 5. Part III: Blessed Are the Peacemakers (Matthew 5:9)
+## 3. Blessed are the Peacemakers (Matthew 5:9)
 ### 第三部分：使人和睦的人有福了（马太福音 5:9）
 
 > **Matthew 5:9**  
@@ -126,7 +120,7 @@ In Old Testament history, Israel's elders ate in God's presence on Sinai (Exodus
 > **9a** μακάριοι οἱ εἰρηνοποιοί, **9b** ὅτι αὐτοὶ υἱοὶ θεοῦ κληθήσονται.  
 > **9a** 使人和睦的人有福了！ **9b** 因为他们必称为神的儿子。
 
-### 1. The Ministry of Reconciliation & Holistic *Shalom*
+### 3.1 The Ministry of Reconciliation & Holistic *Shalom*
 Peacemaking goes far beyond passive avoidance of conflict. Peacemakers are active ambassadors of Christ (2 Corinthians 5:20) who restore broken relationships across three key conflicts in the Sermon on the Mount:
 1. **Persecution from Unbelievers** (Matt 5:10–12).
 2. **Interpersonal Strife**: Anger, insults, retaliation, and judgment (Matt 5:21–26, 38–48, 7:1–6).
@@ -134,12 +128,12 @@ Peacemaking goes far beyond passive avoidance of conflict. Peacemakers are activ
 
 Peacemaking embodies the Hebrew concept of **Shalom** (平安)—holistic restoration: relational well-being emotionally, spiritually, socially, and physically.
 
-### 2. Identity: "For They Shall Be Called Sons of God"
+### 3.2 Identity: "For They Shall Be Called Sons of God"
 The title **sons of God** (**υἱοὶ θεοῦ**, *huioi theou*) signifies new identity and attribution (*kaleō* / 称为). Just as Abraham's faith was credited as righteousness and he was called a friend of God (James 2:23), peacemakers are recognized—by God and by others—as true sons of God because peacemaking is the definitive family trait of God's children.
 
 ---
 
-## 6. Part IV: Blessed Are the Persecuted (Matthew 5:10–12)
+## 4. Blessed Are the Persecuted (Matthew 5:10–12)
 ### 第四部分：为义受逼迫的人有福了（马太福音 5:10–12）
 
 > **Matthew 5:10**  
@@ -147,7 +141,7 @@ The title **sons of God** (**υἱοὶ θεοῦ**, *huioi theou*) signifies ne
 > **10a** μακάριοι οἱ δεδιωγμένοι ἕνεκεν δικαιοσύνης, **10b** ὅτι αὐτῶν ἐστιν ἡ βασιλεία τῶν οὐρανῶν.  
 > **10a** 为义受逼迫的人有福了！ **10b** 因为天国是他们的。
 
-### 1. The Nature and Cause of Kingdom Persecution
+### 4.1 The Nature and Cause of Kingdom Persecution
 The Greek verb for persecuted (**διώκω**, *diōkō*) conveys deliberate, systematic, and organized hostility against believers because of their righteousness and allegiance to Christ.
 
 * **Cosmic Antithesis**: The Kingdom of Darkness inherently opposes the Kingdom of Light (John 15:18–25; 2 Timothy 3:12).
@@ -159,12 +153,12 @@ The Greek verb for persecuted (**διώκω**, *diōkō*) conveys deliberate, sy
   * **John Calvin**: Use seasons of repose and leisure to meditate on this doctrine so that when persecution arrives, we are ready to endure faithfully.
   * **John MacArthur**: Avoiding persecution is simple—live like the world, stay quiet about the gospel, compromise righteousness, and go along with sin.
 
-### 2. The Great Reward in Heaven (Matt 5:11–12)
+### 4.2 The Great Reward in Heaven (Matt 5:11–12)
 When people insult (**insult** / 辱骂), persecute (**persecute** / 逼迫), and falsely say all kinds of evil against disciples because of Christ, Jesus commands: *"Rejoice and be glad, because great is your reward in heaven"* (应当欢喜快乐，因为你们在天上的赏赏赐是大的). Suffering confirms our heavenly citizenship and places us in the noble line of God's faithful prophets and witnesses.
 
 ---
 
-## 7. Conclusion: Integrated Matrix of Kingdom Blessings
+## Conclusion: Kingdom Blessings
 ### 结论：八福恩典综合总结表
 
 | Category of Blessing | Biblical Text & Content | Spiritual Significance |
@@ -175,9 +169,7 @@ When people insult (**insult** / 辱骂), persecute (**persecute** / 逼迫), an
 
 ---
 
-
-
-### Key References & Footnotes
+## Key References & Footnotes
 * Barbieri, Louis A., Jr. 1985. "Matthew." In *The Bible Knowledge Commentary*, ed. J. F. Walvoord and R. B. Zuck. Wheaton: Victor Books.
 * Calvin, John, and William Pringle. 2010. *Commentary on a Harmony of the Evangelists Matthew, Mark, and Luke*.
 * France, R. T. 2007. *The Gospel of Matthew*. NICNT. Grand Rapids: Eerdmans.

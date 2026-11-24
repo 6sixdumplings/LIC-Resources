@@ -1,6 +1,6 @@
-`---`
+---
 Title: "Matthew 5:27-32 The Battle for the Heart (English)"
-`---`
+---
 (Date Preached:  26 October 2026)
 
 ## Introduction
@@ -16,7 +16,6 @@ In late 2007, an unusual legal report from the provincial court of Khon Kaen in 
 > Every single one of those 142 divorces was filed by a Thai woman seeking to dissolve her marriage to a Western expatriate husband.
 > 
 > When interviewed by local news outlets, the Chief Justice of the Family Court summarized the core issue in a single word: **disillusionment**. 
-
 
 
 > 142 women had entered into cross-cultural unions with high expectations—perhaps seeking economic security, emotional stability, or romantic fulfillment—only to find, within months or a few short years, that the promise had evaporated into thin air.[^1]

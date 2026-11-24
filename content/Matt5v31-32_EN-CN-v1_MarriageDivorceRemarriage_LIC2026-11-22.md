@@ -1,6 +1,6 @@
-# Matthew 5:31–32: Marriage, Divorce, and Remarriage
-# 马太福音 5:31–32：婚姻、离婚与再婚
-
+---
+Title:"Matthew 5:31–32: Marriage, Divorce, and Remarriage 马太福音 5:31–32：婚姻、离婚与再婚"
+---
 
 #### 引言 / Introduction
 
