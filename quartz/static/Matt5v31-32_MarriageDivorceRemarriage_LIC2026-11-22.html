@@ -1,0 +1,2322 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="artifact-type" content="narrative">
+  <meta name="design-style" content="charter">
+  <title>Marriage, Divorce, and Remarriage — Matthew 5:31–32 Sermon Notes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      color-scheme: light dark;
+
+      /* 1. Charter light palette */
+      --background: #f7f4ec;
+      --surface-container-low: #fffdf8;
+      --surface-container: #ece5d4;
+      --surface-container-high: #e3dac4;
+
+      --on-surface: #1c1f26;
+      --on-surface-variant: #4f5360;
+
+      --outline: #b08d57;
+      --outline-variant: #d9cfb8;
+
+      --primary: #14213d;
+      --on-primary: #f7f4ec;
+      --primary-container: #e3e6ee;
+      --on-primary-container: #14213d;
+      --secondary: #2d5a4a;
+      --tertiary: #8a6a35;
+      --error: #9b2c2c;
+      --on-error: #f7f4ec;
+
+      --data-1: #14213d;
+      --data-2: #8a6a35;
+      --data-3: #2d5a4a;
+      --data-4: #5b7aa0;
+      --data-context: #c2bba9;
+
+      /* Title band & scripture callout tokens */
+      --title-bg: #14213d;
+      --title-fg: #f7f4ec;
+      --title-muted: #d5cfc0;
+      --title-accent: #dfc598;
+      --scripture-bg: #f1ecdf;
+
+      /* Greek/Hebrew badge semantic tints */
+      --badge-hebrew-bg: #e3e6ee;
+      --badge-hebrew-fg: #14213d;
+      --badge-heart-bg: #f6e4e4;
+      --badge-heart-fg: #822222;
+      --badge-porneia-bg: #f5ebd6;
+      --badge-porneia-fg: #6b4c1a;
+      --badge-adultery-bg: #e1ede8;
+      --badge-adultery-fg: #1f4739;
+
+      /* Fonts */
+      --font-headline: 'Libre Caslon Text', 'Noto Sans SC', serif;
+      --font-body: 'Inter', 'Noto Sans SC', sans-serif;
+      --font-label: 'Geist Mono', 'Noto Sans SC', monospace;
+
+      /* Shape */
+      --rounded: 0.125rem;
+      --rounded-lg: 0.25rem;
+      --rounded-full: 0.125rem;
+
+      /* Style effects */
+      --brass-rule: 2px solid var(--outline);
+      --gold-accent-bar: 4px solid var(--outline);
+      --hairline: 1px solid var(--outline-variant);
+      --leaf-underline: 0 1px 0 var(--outline-variant);
+
+      /* 3. Shared tokens */
+      --positive: #2d5a4a;
+      --warning: #8a6a35;
+      --focus: #14213d;
+
+      /* Type scale (14pt = ~18.67px readable mobile sermon notes) */
+      --display-size: clamp(1.95rem, 1.45rem + 2.4vw, 3rem);
+      --headline-size: clamp(1.45rem, 1.2rem + 1.1vw, 1.95rem);
+      --subhead-size: clamp(1.15rem, 1.05rem + 0.45vw, 1.35rem);
+      --body-size: clamp(1.0625rem, 1rem + 0.3vw, 1.167rem);
+      --label-size: 0.78rem;
+
+      /* Spacing scale */
+      --space-xs: 0.25rem;
+      --space-sm: 0.5rem;
+      --space-md: 1rem;
+      --space-lg: 1.5rem;
+      --space-xl: 2.25rem;
+      --space-2xl: 3.5rem;
+
+      /* Motion */
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+      --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+      --dur-micro: 120ms;
+      --dur-short: 220ms;
+      --dur-long: 420ms;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #10172a;
+        --surface-container-low: #1a2338;
+        --surface-container: #222d46;
+        --surface-container-high: #2b3856;
+
+        --on-surface: #ece6d8;
+        --on-surface-variant: #b3b9c7;
+
+        --outline: #c9ad7a;
+        --outline-variant: #34415e;
+
+        --primary: #c2cbe0;
+        --on-primary: #14213d;
+        --primary-container: #253352;
+        --on-primary-container: #ece6d8;
+        --secondary: #8fb3a3;
+        --tertiary: #d4b882;
+        --error: #e07a7a;
+        --on-error: #10172a;
+
+        --data-1: #9cb4e0;
+        --data-2: #d4b882;
+        --data-3: #8fb3a3;
+        --data-4: #7aa3cc;
+        --data-context: #475575;
+
+        --title-bg: #1a2338;
+        --title-fg: #ece6d8;
+        --title-muted: #b3b9c7;
+        --title-accent: #c9ad7a;
+        --scripture-bg: #161f33;
+
+        --badge-hebrew-bg: #23304f;
+        --badge-hebrew-fg: #cbd6ee;
+        --badge-heart-bg: #3b2226;
+        --badge-heart-fg: #f0a8a8;
+        --badge-porneia-bg: #382e1d;
+        --badge-porneia-fg: #e6cb96;
+        --badge-adultery-bg: #1c362e;
+        --badge-adultery-fg: #9fd1be;
+
+        --positive: #8fb3a3;
+        --warning: #d4b882;
+        --focus: #c9ad7a;
+      }
+    }
+
+    /* Base reset */
+    *, *::before, *::after { box-sizing: border-box; }
+    html {
+      scroll-behavior: smooth;
+      overflow-x: clip;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      overflow-x: clip;
+      margin: 0;
+      padding: 0;
+      background-color: var(--background);
+      color: var(--on-surface);
+      font-family: var(--font-body);
+      font-size: var(--body-size);
+      line-height: 1.62;
+      -webkit-font-smoothing: antialiased;
+    }
+    header { position: static !important; }
+
+    button, input, select, textarea {
+      font-family: inherit;
+      color: inherit;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    /* Language switching visibility rules */
+    [data-lang="en"] .lang-zh,
+    [data-lang="en"] .lang-af,
+    [data-lang="zh"] .lang-en,
+    [data-lang="zh"] .lang-af,
+    [data-lang="af"] .lang-en,
+    [data-lang="af"] .lang-zh,
+    [data-lang="bi"] .lang-af {
+      display: none !important;
+    }
+
+    /* Chinese typography adjustment */
+    .lang-zh {
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    [data-lang="bi"] .bi-pair {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: var(--space-md);
+      align-items: start;
+    }
+    [data-lang="bi"] .bi-pair .lang-zh {
+      border-left: 2px solid var(--outline-variant);
+      padding-left: var(--space-md);
+      color: var(--on-surface-variant);
+    }
+    [data-lang="bi"] .bi-inline-zh {
+      display: block;
+      margin-top: var(--space-xs);
+      font-size: 0.92em;
+      opacity: 0.9;
+    }
+    @media (max-width: 640px) {
+      [data-lang="bi"] .bi-pair {
+        grid-template-columns: 1fr;
+        gap: var(--space-sm);
+      }
+      [data-lang="bi"] .bi-pair .lang-zh {
+        border-left: 2px solid var(--outline);
+        padding-left: var(--space-sm);
+      }
+    }
+
+    /* Layout container */
+    .page-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: var(--space-xl);
+      padding: var(--space-lg) var(--space-md) var(--space-2xl);
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    .page-grid * { min-width: 0; }
+
+    @media (max-width: 640px) {
+      .page-grid {
+        padding: var(--space-md) var(--space-md) var(--space-2xl);
+        gap: var(--space-lg);
+      }
+    }
+
+    /* Title Band (Charter treatment) */
+    .title-band {
+      background: var(--title-bg);
+      color: var(--title-fg);
+      border-bottom: 3px solid var(--outline);
+      padding: var(--space-xl) var(--space-md) var(--space-lg);
+    }
+    .title-inner {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    .title-kicker {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--title-accent);
+      margin: 0 0 var(--space-sm);
+    }
+    .title-band h1 {
+      font-family: var(--font-headline);
+      font-weight: 400;
+      font-size: var(--display-size);
+      line-height: 1.12;
+      letter-spacing: -0.01em;
+      margin: 0 0 var(--space-sm);
+      color: var(--title-fg);
+    }
+    .title-lede {
+      font-size: var(--subhead-size);
+      line-height: 1.45;
+      color: var(--title-muted);
+      margin: 0 0 var(--space-lg);
+      max-width: 62ch;
+    }
+    .roadmap-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      border-top: 1px solid var(--outline);
+      padding-top: var(--space-md);
+    }
+    .roadmap-item {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      color: var(--title-fg);
+      background: color-mix(in srgb, var(--title-fg) 8%, transparent);
+      border: 1px solid color-mix(in srgb, var(--outline) 55%, transparent);
+      border-radius: var(--rounded);
+      padding: 0.3rem 0.6rem;
+    }
+    .roadmap-item strong {
+      color: var(--title-accent);
+      margin-right: 0.3rem;
+    }
+
+    /* Sticky Navigation Bar */
+    .sticky-nav {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: color-mix(in srgb, var(--background) 95%, transparent);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-bottom: var(--hairline);
+      padding: var(--space-sm) var(--space-md);
+    }
+    .sticky-nav-inner {
+      max-width: 820px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+    .lang-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--space-xs);
+    }
+    .lang-bar-label {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--on-surface-variant);
+      margin-right: var(--space-xs);
+    }
+    .lang-btn {
+      min-height: 44px;
+      padding: 0 0.75rem;
+      border-radius: var(--rounded);
+      border: 1px solid var(--outline-variant);
+      background: var(--surface-container-low);
+      color: var(--on-surface);
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color var(--dur-micro) var(--ease-out), color var(--dur-micro) var(--ease-out);
+    }
+    .lang-btn:hover {
+      background: var(--surface-container);
+    }
+    .lang-btn[aria-pressed="true"] {
+      background: var(--primary);
+      color: var(--on-primary);
+      border-color: var(--primary);
+      font-weight: 600;
+    }
+
+    .section-links {
+      display: flex;
+      gap: var(--space-sm);
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 2px;
+    }
+    .section-links::-webkit-scrollbar { display: none; }
+    .nav-pill {
+      flex: 0 0 auto;
+      min-height: 44px;
+      padding: 0 0.75rem;
+      display: inline-flex;
+      align-items: center;
+      border-radius: var(--rounded);
+      border: 1px solid var(--outline-variant);
+      background: transparent;
+      color: var(--on-surface);
+      text-decoration: none;
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      transition: background-color var(--dur-micro) var(--ease-out);
+    }
+    .nav-pill:hover, .nav-pill.active {
+      background: var(--primary-container);
+      color: var(--on-primary-container);
+      border-color: var(--outline);
+    }
+
+    /* Section Headings (Charter Brass Section Rule) */
+    section {
+      scroll-margin-top: 124px;
+    }
+    .section-head {
+      border-top: var(--brass-rule);
+      padding-top: var(--space-md);
+      border-bottom: var(--hairline);
+      padding-bottom: var(--space-sm);
+      margin-bottom: var(--space-md);
+    }
+    .section-kicker {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--tertiary);
+      margin: 0 0 var(--space-xs);
+    }
+    .section-head h2 {
+      font-family: var(--font-headline);
+      font-weight: 400;
+      font-size: var(--headline-size);
+      line-height: 1.18;
+      margin: 0;
+      color: var(--on-surface);
+    }
+    h3 {
+      font-family: var(--font-headline);
+      font-weight: 700;
+      font-size: var(--subhead-size);
+      line-height: 1.3;
+      margin: var(--space-lg) 0 var(--space-sm);
+      color: var(--on-surface);
+    }
+    p {
+      margin: 0 0 var(--space-md);
+      max-width: 65ch;
+    }
+    [data-lang="bi"] p {
+      max-width: none;
+    }
+
+    /* Scripture Callout Cards (Full-width shaded with gold left-accent border) */
+    .scripture-card {
+      background: var(--scripture-bg);
+      border-left: var(--gold-accent-bar);
+      border-top: var(--hairline);
+      border-right: var(--hairline);
+      border-bottom: var(--hairline);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md) var(--space-lg);
+      margin: var(--space-md) 0;
+    }
+    .scripture-ref {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--tertiary);
+      margin-bottom: var(--space-sm);
+      display: block;
+    }
+    .scripture-quote {
+      font-family: var(--font-headline);
+      font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.2rem);
+      line-height: 1.6;
+      color: var(--on-surface);
+      margin: 0;
+    }
+    .scripture-verse-num {
+      font-family: var(--font-label);
+      font-size: 0.78em;
+      font-weight: 600;
+      color: var(--tertiary);
+      vertical-align: super;
+      margin-right: 0.15rem;
+    }
+
+    /* Cards & Grids */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+      gap: var(--space-md);
+      margin: var(--space-md) 0;
+    }
+    .figure-card {
+      background: var(--surface-container-low);
+      border-top: var(--brass-rule);
+      border-right: var(--hairline);
+      border-bottom: var(--hairline);
+      border-left: var(--hairline);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md);
+    }
+    .figure-label {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--on-surface-variant);
+      margin-bottom: var(--space-xs);
+    }
+    .figure-value {
+      font-family: var(--font-headline);
+      font-weight: 400;
+      font-size: clamp(1.6rem, 1.3rem + 1.2vw, 2.2rem);
+      font-variant-numeric: tabular-nums lining-nums;
+      line-height: 1.1;
+      color: var(--on-surface);
+      margin-bottom: var(--space-xs);
+    }
+    .figure-delta {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--tertiary);
+    }
+    .figure-delta.positive {
+      color: var(--positive);
+    }
+
+    /* Filter Chips Row */
+    .filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      margin: var(--space-md) 0;
+    }
+    .filter-btn {
+      min-height: 44px;
+      padding: 0 0.85rem;
+      border-radius: var(--rounded);
+      border: 1px solid var(--outline-variant);
+      background: var(--surface-container-low);
+      color: var(--on-surface);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      cursor: pointer;
+      transition: background-color var(--dur-micro) var(--ease-out);
+    }
+    .filter-btn:hover {
+      background: var(--surface-container);
+    }
+    .filter-btn[aria-pressed="true"] {
+      background: var(--primary);
+      color: var(--on-primary);
+      border-color: var(--primary);
+    }
+
+    /* Tables */
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      border-top: var(--brass-rule);
+      border-bottom: var(--hairline);
+      background: var(--surface-container-low);
+      margin: var(--space-md) 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9375rem;
+    }
+    th {
+      background: var(--surface-container-high);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--on-surface);
+      padding: var(--space-sm) var(--space-md);
+      border-bottom: var(--hairline);
+    }
+    td {
+      padding: var(--space-sm) var(--space-md);
+      border-bottom: var(--hairline);
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    .num {
+      font-variant-numeric: tabular-nums lining-nums;
+      text-align: right;
+      white-space: nowrap;
+    }
+    .row-hidden { display: none; }
+
+    /* Chart containers */
+    .chart-panel {
+      background: var(--surface-container-low);
+      border: var(--hairline);
+      border-top: var(--brass-rule);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md);
+      margin: var(--space-md) 0;
+    }
+    .chart-title {
+      font-family: var(--font-headline);
+      font-weight: 700;
+      font-size: 1.05rem;
+      margin: 0 0 var(--space-xs);
+    }
+    .chart-subtitle {
+      font-size: 0.875rem;
+      color: var(--on-surface-variant);
+      margin: 0 0 var(--space-md);
+    }
+    .chart-box {
+      position: relative;
+      width: 100%;
+      min-height: 260px;
+      height: 280px;
+    }
+
+    /* Cycle of Sin & Flowchart Diagrams */
+    .diagram-panel {
+      background: var(--surface-container-low);
+      border: var(--hairline);
+      border-top: var(--brass-rule);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md);
+      margin: var(--space-md) 0;
+    }
+    .cycle-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(170px, 100%), 1fr));
+      gap: var(--space-sm);
+      margin-top: var(--space-sm);
+    }
+    .cycle-node {
+      background: var(--surface-container);
+      border-left: 3px solid var(--outline);
+      padding: var(--space-sm) var(--space-md);
+      border-radius: var(--rounded);
+    }
+    .cycle-num {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      color: var(--tertiary);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    /* Rabbinic Debate Comparison */
+    .debate-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-md);
+      margin: var(--space-md) 0;
+    }
+    @media (max-width: 640px) {
+      .debate-grid { grid-template-columns: 1fr; }
+    }
+    .debate-card {
+      background: var(--surface-container-low);
+      border: var(--hairline);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md);
+    }
+    .debate-card.rigorist { border-top: 3px solid var(--secondary); }
+    .debate-card.lax { border-top: 3px solid var(--error); }
+    .debate-tag {
+      display: inline-block;
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.15rem 0.45rem;
+      border-radius: var(--rounded);
+      margin-bottom: var(--space-sm);
+    }
+    .debate-card.rigorist .debate-tag {
+      background: var(--badge-adultery-bg);
+      color: var(--badge-adultery-fg);
+    }
+    .debate-card.lax .debate-tag {
+      background: var(--badge-heart-bg);
+      color: var(--badge-heart-fg);
+    }
+
+    /* Deuteronomic Flowchart */
+    .flow-stack {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+      margin: var(--space-md) 0;
+    }
+    .flow-step {
+      background: var(--surface-container-low);
+      border: var(--hairline);
+      border-left: 4px solid var(--primary);
+      border-radius: var(--rounded);
+      padding: var(--space-md);
+    }
+    .flow-step.prohibition { border-left-color: var(--error); }
+    .flow-step.purpose { border-left-color: var(--secondary); }
+    .flow-arrow {
+      display: flex;
+      justify-content: center;
+      color: var(--outline);
+      padding: 0;
+    }
+
+    /* Creation Pattern Cards (Leave, Cleave, One Flesh) */
+    .creation-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-md);
+      margin: var(--space-md) 0;
+    }
+    @media (max-width: 640px) {
+      .creation-grid { grid-template-columns: 1fr; }
+    }
+    .creation-card {
+      background: var(--surface-container-low);
+      border: var(--hairline);
+      border-top: 3px solid var(--secondary);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xs);
+    }
+    .creation-step-num {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      color: var(--tertiary);
+      font-weight: 600;
+    }
+    .creation-title {
+      font-family: var(--font-headline);
+      font-weight: 700;
+      font-size: 1.25rem;
+      margin: 0;
+    }
+
+    /* Greek / Hebrew Transliteration Badges */
+    .badge-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      margin: var(--space-md) 0 var(--space-sm);
+    }
+    .lex-badge {
+      min-height: 44px;
+      padding: 0.4rem 0.75rem;
+      border-radius: var(--rounded);
+      border: 1px solid transparent;
+      font-family: var(--font-label);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: transform var(--dur-micro) var(--ease-out), box-shadow var(--dur-micro) var(--ease-out);
+    }
+    .lex-badge:hover {
+      box-shadow: 0 2px 0 var(--outline);
+    }
+    .lex-badge[aria-expanded="true"] {
+      outline: 2px solid var(--outline);
+      outline-offset: 1px;
+    }
+    .lex-hebrew { background: var(--badge-hebrew-bg); color: var(--badge-hebrew-fg); border-color: var(--outline-variant); }
+    .lex-heart { background: var(--badge-heart-bg); color: var(--badge-heart-fg); border-color: var(--outline-variant); }
+    .lex-porneia { background: var(--badge-porneia-bg); color: var(--badge-porneia-fg); border-color: var(--outline-variant); }
+    .lex-adultery { background: var(--badge-adultery-bg); color: var(--badge-adultery-fg); border-color: var(--outline-variant); }
+
+    .lex-inline {
+      display: inline-block;
+      font-family: var(--font-label);
+      font-size: 0.82em;
+      font-weight: 600;
+      padding: 0.1rem 0.45rem;
+      border-radius: var(--rounded);
+      vertical-align: baseline;
+    }
+
+    .lex-detail-drawer {
+      background: var(--surface-container);
+      border-left: 3px solid var(--outline);
+      border-radius: var(--rounded);
+      padding: var(--space-md);
+      margin-bottom: var(--space-md);
+    }
+    .lex-detail-drawer[hidden] { display: none; }
+
+    /* Pause & Reflect Interactive Note Cards */
+    .reflect-card {
+      background: var(--surface-container-low);
+      border: 1px solid var(--outline);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md);
+      margin: var(--space-lg) 0;
+    }
+    .reflect-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--space-sm);
+    }
+    .reflect-kicker {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--tertiary);
+    }
+    .reflect-prompt {
+      font-weight: 600;
+      margin: var(--space-xs) 0 var(--space-sm);
+    }
+    .reflect-toggle {
+      min-height: 44px;
+      padding: 0 0.9rem;
+      border-radius: var(--rounded);
+      border: 1px solid var(--primary);
+      background: transparent;
+      color: var(--primary);
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-xs);
+    }
+    .reflect-toggle:hover, .reflect-toggle[aria-expanded="true"] {
+      background: var(--primary);
+      color: var(--on-primary);
+    }
+    .reflect-body {
+      margin-top: var(--space-md);
+      padding-top: var(--space-md);
+      border-top: var(--hairline);
+    }
+    .reflect-body[hidden] { display: none; }
+    .note-label {
+      display: block;
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--on-surface-variant);
+      margin-bottom: var(--space-xs);
+    }
+    .note-textarea {
+      width: 100%;
+      min-height: 104px;
+      padding: var(--space-sm) var(--space-md);
+      border-radius: var(--rounded);
+      border: 1px solid var(--outline-variant);
+      background: var(--background);
+      color: var(--on-surface);
+      font-size: 1rem;
+      line-height: 1.5;
+      resize: vertical;
+    }
+    .note-status {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      color: var(--positive);
+      margin-top: var(--space-xs);
+      min-height: 1.2em;
+    }
+
+    /* Discussion Questions & Checklist */
+    .discussion-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+      margin: var(--space-md) 0;
+    }
+    .discussion-item {
+      background: var(--surface-container-low);
+      border: var(--hairline);
+      border-radius: var(--rounded);
+      padding: var(--space-md);
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-md);
+    }
+    .discussion-check {
+      width: 24px;
+      height: 24px;
+      min-width: 24px;
+      margin-top: 2px;
+      accent-color: var(--primary);
+      cursor: pointer;
+    }
+    .discussion-num {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      color: var(--tertiary);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    /* Pastoral Prayer */
+    .prayer-card {
+      background: var(--surface-container);
+      border-left: var(--gold-accent-bar);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+      margin: var(--space-lg) 0;
+    }
+    .prayer-card h3 {
+      margin-top: 0;
+    }
+    .prayer-text {
+      font-family: var(--font-headline);
+      font-style: italic;
+      line-height: 1.7;
+      margin: 0;
+    }
+    .prayer-text .lang-zh {
+      font-style: normal;
+    }
+
+    /* Action Buttons Row */
+    .action-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--space-sm);
+      padding: var(--space-md);
+      background: var(--surface-container-low);
+      border: var(--hairline);
+      border-radius: var(--rounded-lg);
+      margin-top: var(--space-lg);
+    }
+    .btn-primary {
+      min-height: 44px;
+      padding: 0 1rem;
+      border-radius: var(--rounded);
+      border: 1px solid var(--primary);
+      background: var(--primary);
+      color: var(--on-primary);
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .btn-secondary {
+      min-height: 44px;
+      padding: 0 1rem;
+      border-radius: var(--rounded);
+      border: 1px solid var(--outline-variant);
+      background: transparent;
+      color: var(--on-surface);
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    .btn-primary:hover { opacity: 0.92; }
+    .btn-secondary:hover { background: var(--surface-container); }
+
+    .sources-footer {
+      border-top: var(--hairline);
+      padding-top: var(--space-md);
+      font-size: 0.85rem;
+      color: var(--on-surface-variant);
+      line-height: 1.55;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Title Band -->
+  <header class="title-band">
+    <div class="title-inner">
+      <p class="title-kicker">
+        <span class="lang-en">Sermon Notes · Matthew 5:31–32 · 22 Nov 2026</span>
+        <span class="lang-zh">讲道笔记 · 马太福音 5:31–32 · 2026年11月22日</span>
+        <span class="lang-af">Preeknotas · Matteus 5:31–32 · 22 Nov 2026</span>
+      </p>
+      <h1>
+        <span class="lang-en">Marriage, Divorce, and Remarriage</span>
+        <span class="lang-zh">婚姻、离婚与再婚</span>
+        <span class="lang-af">Huwelik, Egskeiding en Herhuwelik</span>
+      </h1>
+      <p class="title-lede">
+        <span class="lang-en">Jesus’ authoritative call from the Sermon on the Mount to guard the heart, recover God’s creation design, and pursue lifelong covenant faithfulness.</span>
+        <span class="lang-zh">主耶稣在登山宝训中的权威呼召：保守己心、回归神起初创造的心意，并追求一生的盟约忠贞。</span>
+        <span class="lang-af">Jesus se gesaghebbende roepstem in die Bergpredikasie om die hart te bewaak, God se skeppingsorde te herwin en lewenslange verbondstrou na te jaag.</span>
+      </p>
+      <div class="roadmap-strip" aria-label="Sermon 4-part outline">
+        <span class="roadmap-item"><strong>01</strong><span class="lang-en">What the Teachers Argued</span><span class="lang-zh">文士与教师的争论</span><span class="lang-af">Wat die Leraars Redeneer</span></span>
+        <span class="roadmap-item"><strong>02</strong><span class="lang-en">What the Law Taught</span><span class="lang-zh">摩西律法的真正教导</span><span class="lang-af">Wat die Wet Geleër Het</span></span>
+        <span class="roadmap-item"><strong>03</strong><span class="lang-en">What God Purposed</span><span class="lang-zh">神起初创造的心意</span><span class="lang-af">Wat God Beoog Het</span></span>
+        <span class="roadmap-item"><strong>04</strong><span class="lang-en">What Jesus Said</span><span class="lang-zh">主耶稣的教导</span><span class="lang-af">Wat Jesus Gesê Het</span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sticky Navigation & 4-Mode Language Selector -->
+  <nav class="sticky-nav" aria-label="Language switcher and sermon sections">
+    <div class="sticky-nav-inner">
+      <div class="lang-bar" role="group" aria-label="View language">
+        <span class="lang-bar-label">
+          <span class="lang-en">View:</span>
+          <span class="lang-zh">语言:</span>
+          <span class="lang-af">Taal:</span>
+        </span>
+        <button type="button" class="lang-btn" id="btn-lang-en" aria-pressed="true" onclick="setLanguage('en')">English</button>
+        <button type="button" class="lang-btn" id="btn-lang-zh" aria-pressed="false" onclick="setLanguage('zh')">中文 (和合本)</button>
+        <button type="button" class="lang-btn" id="btn-lang-af" aria-pressed="false" onclick="setLanguage('af')">Afrikaans</button>
+        <button type="button" class="lang-btn" id="btn-lang-bi" aria-pressed="false" onclick="setLanguage('bi')">EN / 中文</button>
+      </div>
+      <div class="section-links">
+        <a class="nav-pill" href="#sec-context"><span class="lang-en">Context</span><span class="lang-zh">时代背景</span><span class="lang-af">Konteks</span></a>
+        <a class="nav-pill" href="#sec-teachers"><span class="lang-en">1. Teachers</span><span class="lang-zh">1. 教师争论</span><span class="lang-af">1. Leraars</span></a>
+        <a class="nav-pill" href="#sec-law"><span class="lang-en">2. The Law</span><span class="lang-zh">2. 律法原意</span><span class="lang-af">2. Die Wet</span></a>
+        <a class="nav-pill" href="#sec-creation"><span class="lang-en">3. Creation</span><span class="lang-zh">3. 起初创造</span><span class="lang-af">3. Skepping</span></a>
+        <a class="nav-pill" href="#sec-jesus"><span class="lang-en">4. Jesus Said</span><span class="lang-zh">4. 耶稣教导</span><span class="lang-af">4. Jesus Sê</span></a>
+        <a class="nav-pill" href="#sec-practice"><span class="lang-en">Discipleship</span><span class="lang-zh">门徒实践</span><span class="lang-af">Dissipelskap</span></a>
+        <a class="nav-pill" href="#sec-discuss"><span class="lang-en">Discuss &amp; Pray</span><span class="lang-zh">小组讨论与祷告</span><span class="lang-af">Bespreek &amp; Bid</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-grid">
+
+    <!-- Section 0: Introduction & Global Demographics -->
+    <section id="sec-context">
+      <div class="section-head">
+        <p class="section-kicker">
+          <span class="lang-en">Introduction · Global &amp; Regional Landscape</span>
+          <span class="lang-zh">引言 · 全球与亚洲婚姻现状</span>
+          <span class="lang-af">Inleiding · Globale &amp; Streekslandskap</span>
+        </p>
+        <h2>
+          <span class="lang-en">Marriage Is Under Tremendous Pressure Worldwide</span>
+          <span class="lang-zh">婚姻制度在全球范围内正面临巨大压力</span>
+          <span class="lang-af">Die Huwelik Is Wêreldwyd Onder Geweldige Druk</span>
+        </h2>
+      </div>
+
+      <div class="bi-pair">
+        <p class="lang-en">Since 2000, marriage rates across OECD nations have fallen by roughly 25% (from <strong>5.1 to 3.8</strong> per 1,000 people). First marriages are delayed into the late twenties and thirties, roughly <strong>30%</strong> of births across the developed world occur outside marriage, and regional pressures in China and Thailand reveal deep fractures in cultural expectations of faithfulness.</p>
+        <p class="lang-zh">自2000年以来，经合组织（OECD）国家的结婚率大幅下降了约25%（从千分之 <strong>5.1 降至千分之 3.8</strong>）。初婚年龄不断推迟至二十多岁末或三十多岁，发达国家约 <strong>30%</strong> 的新生儿出生在婚姻之外；而中国与泰国的婚姻数据，更折射出当代文化对婚姻忠贞认知的深刻动摇。</p>
+        <p class="lang-af">Sedert 2000 het huweliksyfers regoor OESO-lande met sowat 25% gedaal (van <strong>5,1 tot 3,8</strong> per 1 000 mense). Eerste huwelike word uitgestel tot laat twintigs en dertigs, sowat <strong>30%</strong> van geboortes in ontwikkelde lande vind buite die huwelik plaas, en streeksdruk in China en Thailand onthul diep skeure in kulturele verwagtinge van trou.</p>
+      </div>
+
+      <!-- Bridge from Matt 5:27-30 -->
+      <div class="diagram-panel">
+        <div class="figure-label">
+          <span class="lang-en">Bridge from Matthew 5:27–30 · The Self-Reinforcing Cycle of Sin</span>
+          <span class="lang-zh">衔接马太福音 5:27–30 · 罪的自我强化循环</span>
+          <span class="lang-af">Brug vanaf Matteus 5:27–30 · Die Selfversterkende Kringloop van Sonde</span>
+        </div>
+        <div class="bi-pair">
+          <p class="lang-en" style="margin-bottom: var(--space-sm);">Adultery begins in the heart before it ever becomes an outward act. Safeguarding marriage requires guarding both the <strong>inflow</strong> (eye and ear) and the <strong>outflow</strong> (hand and action).</p>
+          <p class="lang-zh" style="margin-bottom: var(--space-sm);">奸淫的罪并非始于外在行为，而是始于内心。守护婚姻必须同时把守进入内心的<strong>“入口”</strong>（眼目与耳闻）与从心发出的<strong>“出口”</strong>（行动与手）。</p>
+          <p class="lang-af" style="margin-bottom: var(--space-sm);">Owerspel begin in die hart voordat dit ooit ’n uiterlike daad word. Om die huwelik te bewaar, vereis dat ons sowel die <strong>invloei</strong> (oog en oor) as die <strong>uitvloei</strong> (hand en daad) bewaak.</p>
+        </div>
+        <div class="cycle-steps">
+          <div class="cycle-node">
+            <span class="cycle-num">01 · <span class="lang-en">Inflow</span><span class="lang-zh">入口</span><span class="lang-af">Invloei</span></span>
+            <span class="lang-en">What we allow our eyes and ears to consume</span>
+            <span class="lang-zh">眼目与耳闻所接纳的事物</span>
+            <span class="lang-af">Wat ons oë en ore inneem</span>
+          </div>
+          <div class="cycle-node">
+            <span class="cycle-num">02 · <span class="lang-en">Heart</span><span class="lang-zh">内心</span><span class="lang-af">Hart</span></span>
+            <span class="lang-en">Lustful longing takes root internally</span>
+            <span class="lang-zh">不正当的渴望与情欲在心里扎根</span>
+            <span class="lang-af">Sondige begeerte skiet wortel</span>
+          </div>
+          <div class="cycle-node">
+            <span class="cycle-num">03 · <span class="lang-en">Outflow</span><span class="lang-zh">出口</span><span class="lang-af">Uitvloei</span></span>
+            <span class="lang-en">Acting upon desire (hand) reinforces sin</span>
+            <span class="lang-zh">顺从私欲而行，使罪恶感官不断扩大</span>
+            <span class="lang-af">Optrede op begeerte versterk sonde</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Global & Regional Demographics Matrix -->
+      <h3>
+        <span class="lang-en">Global &amp; Regional Demographics Matrix</span>
+        <span class="lang-zh">全球与区域婚姻及离婚数据矩阵</span>
+        <span class="lang-af">Globale &amp; Streeksdemografiese Matriks</span>
+      </h3>
+
+      <div class="filter-row" role="group" aria-label="Filter regional demographics">
+        <button type="button" class="filter-btn" data-region="all" aria-pressed="true" onclick="filterRegion('all')">
+          <span class="lang-en">All Regions</span><span class="lang-zh">全部地区</span><span class="lang-af">Alle Streke</span>
+        </button>
+        <button type="button" class="filter-btn" data-region="oecd" aria-pressed="false" onclick="filterRegion('oecd')">OECD</button>
+        <button type="button" class="filter-btn" data-region="china" aria-pressed="false" onclick="filterRegion('china')">
+          <span class="lang-en">China</span><span class="lang-zh">中国</span><span class="lang-af">China</span>
+        </button>
+        <button type="button" class="filter-btn" data-region="thailand" aria-pressed="false" onclick="filterRegion('thailand')">
+          <span class="lang-en">Thailand</span><span class="lang-zh">泰国</span><span class="lang-af">Thailand</span>
+        </button>
+        <button type="button" class="filter-btn" data-region="usa" aria-pressed="false" onclick="filterRegion('usa')">
+          <span class="lang-en">United States</span><span class="lang-zh">美国</span><span class="lang-af">Verenigde State</span>
+        </button>
+      </div>
+
+      <div class="card-grid">
+        <div class="figure-card" data-region-card="oecd">
+          <div class="figure-label"><span class="lang-en">OECD Marriage Rate</span><span class="lang-zh">OECD 粗结婚率</span><span class="lang-af">OESO-Huweliksyfer</span></div>
+          <div class="figure-value">5.1 → 3.8</div>
+          <div class="figure-delta">
+            <span class="lang-en">Per 1,000 pop. (−25% since 2000)</span>
+            <span class="lang-zh">每千人（自2000年下降约25%）</span>
+            <span class="lang-af">Per 1 000 inw. (−25% sedert 2000)</span>
+          </div>
+        </div>
+        <div class="figure-card" data-region-card="china">
+          <div class="figure-label"><span class="lang-en">China 30-Day Cooling-Off</span><span class="lang-zh">中国离婚冷静期效应</span><span class="lang-af">China 30-Dae Afkoeltydperk</span></div>
+          <div class="figure-value">3.36 → 2.0</div>
+          <div class="figure-delta positive">
+            <span class="lang-en">Crude divorce rate (2019 → 2023; −33–42% quarterly)</span>
+            <span class="lang-zh">粗离婚率（2019 → 2023；季度登记减少33–42%）</span>
+            <span class="lang-af">Ruwe egskeidingsyfer (2019 → 2023; −33–42% per kwartaal)</span>
+          </div>
+        </div>
+        <div class="figure-card" data-region-card="thailand">
+          <div class="figure-label"><span class="lang-en">Thailand Infidelity Survey</span><span class="lang-zh">泰国婚外情调查比例</span><span class="lang-af">Thailand Ontrouheid-opname</span></div>
+          <div class="figure-value">51%</div>
+          <div class="figure-delta">
+            <span class="lang-en">Highest globally (2025); Khon Kaen 142 filings in 90 days</span>
+            <span class="lang-zh">2025年居全球首位；孔敬府曾90天涌现142宗离婚申请</span>
+            <span class="lang-af">Hoogste wêreldwyd (2025); Khon Kaen 142 aansoeke in 90 dae</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th><span class="lang-en">Region</span><span class="lang-zh">地区</span><span class="lang-af">Streek</span></th>
+              <th class="num"><span class="lang-en">Marriage Rate</span><span class="lang-zh">结婚率</span><span class="lang-af">Huweliksyfer</span></th>
+              <th class="num"><span class="lang-en">Divorce Rate</span><span class="lang-zh">离婚率</span><span class="lang-af">Egskeidingsyfer</span></th>
+              <th><span class="lang-en">Key Structural Drivers</span><span class="lang-zh">主要社会与法律驱动因素</span><span class="lang-af">Primêre Strukturele Drywers</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-region-row="oecd">
+              <td><strong><span class="lang-en">OECD Average</span><span class="lang-zh">OECD 平均值</span><span class="lang-af">OESO-Gemiddeld</span></strong></td>
+              <td class="num">3.8 / 1,000</td>
+              <td class="num">1.77–1.80</td>
+              <td>
+                <span class="lang-en">Mean first-marriage age 31.0 (W) / 33.4 (M); ~30% births outside marriage; normalization of cohabitation.</span>
+                <span class="lang-zh">初婚平均年龄升至31.0岁（女）/ 33.4岁（男）；约30%非婚生育；同居普遍化。</span>
+                <span class="lang-af">Gemiddelde eerste huwelik 31,0 (V) / 33,4 (M); ~30% geboortes buite die huwelik; saamwoon genormaliseer.</span>
+              </td>
+            </tr>
+            <tr data-region-row="china">
+              <td><strong><span class="lang-en">China (PRC)</span><span class="lang-zh">中国</span><span class="lang-af">China (VRC)</span></strong></td>
+              <td class="num"><span class="lang-en">Record low (2024)</span><span class="lang-zh">1980来新低</span><span class="lang-af">Rekordlaagte (2024)</span></td>
+              <td class="num">2.0 (2023)</td>
+              <td>
+                <span class="lang-en">30-day Cooling-Off Period (2021) cut annual registered divorces by ~2.6M; women’s economic independence reshaping filings.</span>
+                <span class="lang-zh">2021年实施30天离婚冷静期后年均减少约260万宗登记离婚；女性经济独立改变婚姻门槛。</span>
+                <span class="lang-af">30-dae Afkoeltydperk (2021) het jaarlikse egskeidings met ~2,6M verminder; vroue se ekonomiese onafhanklikheid.</span>
+              </td>
+            </tr>
+            <tr data-region-row="thailand">
+              <td><strong><span class="lang-en">Thailand</span><span class="lang-zh">泰国</span><span class="lang-af">Thailand</span></strong></td>
+              <td class="num"><span class="lang-en">Declining</span><span class="lang-zh">持续下降</span><span class="lang-af">Dalend</span></td>
+              <td class="num">2.2 (2023)</td>
+              <td>
+                <span class="lang-en">51% admitted infidelity (Mia Noi culture); 0.87 TFR; CCC §§ 1516(1) &amp; 1523 allow civil adultery damages claims.</span>
+                <span class="lang-zh">51%受访者承认婚外情（受“小老婆”文化影响）；总和生育率仅0.87；民商法典第1516/1523条允许通奸赔偿诉讼。</span>
+                <span class="lang-af">51% erkende ontrouheid (Mia Noi-kultuur); 0,87 TFR; Wetboek §§ 1516(1) &amp; 1523 laat siviele skadevergoedingseise toe.</span>
+              </td>
+            </tr>
+            <tr data-region-row="usa">
+              <td><strong><span class="lang-en">United States</span><span class="lang-zh">美国</span><span class="lang-af">Verenigde State</span></strong></td>
+              <td class="num">~3.8 / 1,000</td>
+              <td class="num">2.4 (2023)</td>
+              <td>
+                <span class="lang-en">33% of ever-married divorced; gray divorce (50+) doubled (5 → 10 per 1,000); remarried 50+ rate 2× first marriage (16 vs 8).</span>
+                <span class="lang-zh">曾婚者中33%曾离婚；50岁以上“银发离婚”翻倍（千分之5升至10）；再婚者离婚率为初婚两倍（16比8）。</span>
+                <span class="lang-af">33% van ooit-getroudes geskei; grys egskeiding (50+) verdubbel (5 → 10); hertroudes 50+ dubbeld so hoog (16 teen 8).</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="chart-panel">
+        <div class="chart-title">
+          <span class="lang-en">Crude Divorce Rate vs. OECD Marriage Benchmark (per 1,000 population)</span>
+          <span class="lang-zh">各地区粗离婚率与 OECD 结婚率基准对比（每千人口）</span>
+          <span class="lang-af">Ruwe Egskeidingsyfer teenoor OESO-Huweliksmaatstaf (per 1 000 bevolking)</span>
+        </div>
+        <p class="chart-subtitle">
+          <span class="lang-en">Comparing crude divorce rates (CDR) across key regions against China’s pre/post cooling-off shift.</span>
+          <span class="lang-zh">对比主要地区粗离婚率，及中国“冷静期”实施前后的数据变化。</span>
+          <span class="lang-af">Vergelyking van ruwe egskeidingsyfers (CDR) oor sleutelstreke en China se verskuiwing ná die afkoeltydperk.</span>
+        </p>
+        <div class="chart-box">
+          <canvas id="demographicsChart" aria-label="Bar chart comparing crude divorce and marriage rates"></canvas>
+        </div>
+      </div>
+
+      <!-- Pause & Reflect #1 -->
+      <div class="reflect-card">
+        <div class="reflect-header">
+          <div>
+            <div class="reflect-kicker">
+              <span class="lang-en">Pause &amp; Reflect · 01</span>
+              <span class="lang-zh">停下反思 · 01</span>
+              <span class="lang-af">Staan Stil &amp; Dink Na · 01</span>
+            </div>
+            <p class="reflect-prompt">
+              <span class="lang-en">Where do you notice “What’s in it for me?” cultural pressures shaping how you or people around you view marriage?</span>
+              <span class="lang-zh">你在自己或周围人的婚姻观念中，是否曾察觉到“这对我有什么好处？”的消费主义心态？</span>
+              <span class="lang-af">Waar merk jy “Wat is daarin vir my?”-kulturele druk op wat jou of mense rondom jou se siening van die huwelik vorm?</span>
+            </p>
+          </div>
+          <button type="button" class="reflect-toggle" id="toggle-note-1" aria-expanded="false" onclick="toggleNote('note-1', 'toggle-note-1')">
+            <span class="lang-en">Write Note</span><span class="lang-zh">记录笔记</span><span class="lang-af">Skryf Nota</span>
+          </button>
+        </div>
+        <div class="reflect-body" id="note-1" hidden>
+          <label class="note-label" for="input-note-1">
+            <span class="lang-en">Personal Sermon Note (saved automatically)</span>
+            <span class="lang-zh">个人听道笔记（自动保存）</span>
+            <span class="lang-af">Persoonlike Preeknota (outomaties gestoor)</span>
+          </label>
+          <textarea class="note-textarea" id="input-note-1" oninput="saveNote('note1', this.value, 'status-note-1')"></textarea>
+          <div class="note-status" id="status-note-1" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Primary Scripture Reading Callout: Matthew 5:31-32 -->
+    <div class="scripture-card" role="region" aria-label="Matthew 5:31-32 Scripture Reading">
+      <span class="scripture-ref">
+        <span class="lang-en">Scripture Reading · Matthew 5:31–32 (NIV)</span>
+        <span class="lang-zh">宣读经文 · 马太福音 5:31–32（新标点和合本 CUVNP）</span>
+        <span class="lang-af">Skriflesing · Matteus 5:31–32</span>
+      </span>
+      <div class="bi-pair">
+        <p class="scripture-quote lang-en"><span class="scripture-verse-num">31</span>“It has been said, ‘Anyone who divorces his wife must give her a certificate of divorce.’ <span class="scripture-verse-num">32</span>But I tell you that anyone who divorces his wife, except for marital unfaithfulness, causes her to become an adulteress, and anyone who marries the divorced woman commits adultery.”</p>
+        <p class="scripture-quote lang-zh"><span class="scripture-verse-num">31</span>「又有话说：『人若休妻，就当给她休书。』<span class="scripture-verse-num">32</span>只是我告诉你们，凡休妻的，若不是为淫乱的缘故，就是叫她作淫妇了；人若娶这被休的妇人，也是犯奸淫了。」</p>
+        <p class="scripture-quote lang-af"><span class="scripture-verse-num">31</span>“Daar is ook gesê: ‘Elkeen wat van sy vrou skei, moet vir haar ’n skeibrief gee.’ <span class="scripture-verse-num">32</span>Maar Ek sê vir julle: Elkeen wat van sy vrou skei, behalwe oor owerspel, maak dat sy owerspel pleeg; en elkeen wat ’n geskeide vrou trou, pleeg owerspel.”</p>
+      </div>
+    </div>
+
+    <!-- Section 1: What the Teachers Argued -->
+    <section id="sec-teachers">
+      <div class="section-head">
+        <p class="section-kicker">
+          <span class="lang-en">Point 01 · Historical &amp; Rabbinic Context</span>
+          <span class="lang-zh">第一点 · 文士与拉比的历史背景</span>
+          <span class="lang-af">Punt 01 · Historiese &amp; Rabbynse Konteks</span>
+        </p>
+        <h2>
+          <span class="lang-en">What the Teachers Argued (Matt 5:31; 19:3; Deut 24:1)</span>
+          <span class="lang-zh">教师与文士的争论（太 5:31；19:3；申 24:1）</span>
+          <span class="lang-af">Wat die Leraars Redeneer Het (Matt 5:31; 19:3; Deut 24:1)</span>
+        </h2>
+      </div>
+
+      <div class="bi-pair">
+        <p class="lang-en">Jesus confronts a permissive first-century culture where divorce had become easy and routine. Historian Josephus notes that divorce was <em>“purely a male prerogative, which required no legal hearing, merely the husband’s decision; Jewish law made no provision for a woman to initiate divorce”</em> (<em>Ant.</em> 15.259). An entire Mishnah tractate (<em>Giṭṭin</em>) detailed how to write a valid dismissal certificate (<em>apoluo</em>).</p>
+        <p class="lang-zh">耶稣在这里面对的是一个离婚极其容易且普遍的世代。犹太历史学家约瑟夫斯指出，当时“离婚纯粹是男性的特权，不需要经过法庭听证，只需丈夫单方面决定；犹太律法并未赋予妻子主动提出离婚的权利”（《犹太古史》15.259）。密西拿甚至有整部论著《休书篇》（<em>Giṭṭin</em>）专门规范如何书写合法的休书。</p>
+        <p class="lang-af">Jesus konfronteer ’n toegeeflike eersteeuse kultuur waar egskeiding maklik en alledaags geword het. Die historikus Josefus merk op dat egskeiding <em>“suiwer ’n manlike voorreg was wat geen regsverhoor vereis het nie, bloot die man se besluit; Joodse wet het geen voorsiening gemaak vir ’n vrou om egskeiding te inisieer nie”</em> (<em>Ant.</em> 15.259).</p>
+      </div>
+
+      <h3>
+        <span class="lang-en">The Rabbinic Debate: Shammai vs. Hillel</span>
+        <span class="lang-zh">拉比学派之争：沙迈学派 vs. 希勒尔学派</span>
+        <span class="lang-af">Die Rabbynse Debat: Sjammai teenoor Hillel</span>
+      </h3>
+
+      <div class="debate-grid">
+        <div class="debate-card rigorist">
+          <span class="debate-tag">
+            <span class="lang-en">House of Shammai · Rigorist</span>
+            <span class="lang-zh">沙迈学派 · 严谨派</span>
+            <span class="lang-af">Huis van Sjammai · Streng</span>
+          </span>
+          <div class="bi-pair">
+            <p class="lang-en" style="margin-bottom: 0;">Read <span class="lex-inline lex-hebrew">'erwat dabar</span> (“something indecent” in Deut 24:1) as a unified phrase restricting divorce solely to serious sexual immorality or marital unfaithfulness.</p>
+            <p class="lang-zh" style="margin-bottom: 0;">将申命记 24:1 中的 <span class="lex-inline lex-hebrew">'erwat dabar</span>（“不合理的事 / 羞耻的事”）视为整体词组，主张唯有严重的性不忠才可离婚。</p>
+            <p class="lang-af" style="margin-bottom: 0;">Het <span class="lex-inline lex-hebrew">'erwat dabar</span> (“iets skandeliks” in Deut 24:1) gelees as ’n enkele begrip wat egskeiding uitsluitlik tot ernstige seksuele ontrou beperk.</p>
+          </div>
+        </div>
+
+        <div class="debate-card lax">
+          <span class="debate-tag">
+            <span class="lang-en">House of Hillel · “Any Cause” Loophole</span>
+            <span class="lang-zh">希勒尔学派 · “任何理由”漏洞</span>
+            <span class="lang-af">Huis van Hillel · “Enige Rede”-Skuiwergat</span>
+          </span>
+          <div class="bi-pair">
+            <p class="lang-en" style="margin-bottom: 0;">Split “if she finds no favor in his eyes” from “something indecent,” granting men liberty to divorce for <strong>any and every reason</strong> (burning dinner, personal dislike, or finding someone else)—so long as a paper certificate was handed over.</p>
+            <p class="lang-zh" style="margin-bottom: 0;">将“不蒙恩”与“有不合理的事”割裂解读，赋予丈夫<strong>“无论什么缘故”</strong>都可休妻的自由（哪怕做饭烧焦、心生厌烦或另有所爱），只要给一纸休书即可。</p>
+            <p class="lang-af" style="margin-bottom: 0;">Het “as sy geen guns in sy oë vind nie” geskei van “iets skandeliks”, en mans die reg gegee om oor <strong>enige rede</strong> te skei (selfs gebrande kos of voorkeur), solank ’n skeibrief gegee is.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: What the Law Actually Taught -->
+    <section id="sec-law">
+      <div class="section-head">
+        <p class="section-kicker">
+          <span class="lang-en">Point 02 · Deuteronomy 24:1–4 Case Law</span>
+          <span class="lang-zh">第二点 · 申命记 24:1–4 的律法原意</span>
+          <span class="lang-af">Punt 02 · Deuteronomium 24:1–4 Gevalsreg</span>
+        </p>
+        <h2>
+          <span class="lang-en">What the Law Actually Taught</span>
+          <span class="lang-zh">摩西律法真正教导的是什么</span>
+          <span class="lang-af">Wat die Wet Werklik Geleër Het</span>
+        </h2>
+      </div>
+
+      <div class="bi-pair">
+        <p class="lang-en">The Pharisees treated Deuteronomy 24:1 as a <em>command</em> to divorce (“Why then did Moses command…?” Matt 19:7). Jesus corrected them: Moses <strong>permitted</strong> it as regulatory case law because of human hardness of heart (<span class="lex-inline lex-heart">sklerokardia</span>). Deuteronomy 24 does not endorse divorce; it regulates its messy aftermath to restrain abuse.</p>
+        <p class="lang-zh">法利赛人把申命记 24:1 当作神<em>吩咐</em>人离婚的命令（“摩西为什么吩咐给妻子休书呢？”太 19:7）。耶稣纠正他们：摩西只是因为人的心硬（<span class="lex-inline lex-heart">sklerokardia</span>）而<strong>容许</strong>离婚，设立判例法来规范善后，绝非鼓励或赞成离婚。</p>
+        <p class="lang-af">Die Fariseërs het Deuteronomium 24:1 as ’n <em>bevel</em> tot egskeiding hanteer (“Waarom het Moses dan beveel…?” Matt 19:7). Jesus het hulle reggehelp: Moses het dit as regulerende gevalsreg <strong>toegelaat</strong> weens die hardheid van menseharte (<span class="lex-inline lex-heart">sklerokardia</span>). Dit keur nie egskeiding goed nie, maar beperk misbruik.</p>
+      </div>
+
+      <!-- Deuteronomic Case Law Flowchart -->
+      <div class="diagram-panel">
+        <div class="figure-label">
+          <span class="lang-en">Deuteronomic Case Law Flowchart · Deut 24:1–4 Conditional Structure</span>
+          <span class="lang-zh">申命记 24:1–4 条件判例法流程图</span>
+          <span class="lang-af">Deuteronomiese Gevalsreg-Vloeidiagram · Deut 24:1–4 Voorwaardelike Struktuur</span>
+        </div>
+
+        <div class="flow-stack">
+          <div class="flow-step">
+            <span class="cycle-num">01 · PROTASIS (IF — vv. 1–3)</span>
+            <div class="bi-pair">
+              <p class="lang-en" style="margin-bottom:0;"><strong>Condition:</strong> <em>If</em> a man marries a wife, finds <span class="lex-inline lex-hebrew">'erwat dabar</span> in her, writes a certificate of divorce, sends her away, and she marries a second man who later divorces her or dies…</p>
+              <p class="lang-zh" style="margin-bottom:0;"><strong>假设条件（若）：</strong><em>如果</em>人娶妻之后，见她有 <span class="lex-inline lex-hebrew">'erwat dabar</span>，就写休书交在她手中打发她离开，而她再嫁后又被后夫休弃或后夫死了……</p>
+              <p class="lang-af" style="margin-bottom:0;"><strong>Voorwaarde (As):</strong> <em>As</em> ’n man ’n vrou neem, <span class="lex-inline lex-hebrew">'erwat dabar</span> by haar vind, ’n skeibrief skryf, haar wegstuur, en sy met ’n tweede man trou wat later van haar skei of sterf…</p>
+            </div>
+          </div>
+
+          <div class="flow-arrow" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+          </div>
+
+          <div class="flow-step prohibition">
+            <span class="cycle-num">02 · APODOSIS (THEN — v. 4)</span>
+            <div class="bi-pair">
+              <p class="lang-en" style="margin-bottom:0;"><strong>The Only Actual Command:</strong> <em>Then</em> the first husband is <strong>strictly forbidden</strong> from taking her back again—stopping casual spouse-trading and hasty impulse divorces.</p>
+              <p class="lang-zh" style="margin-bottom:0;"><strong>唯一真正的禁令（则）：</strong><em>那么</em>前夫<strong>不可</strong>再娶她为妻——藉此遏止草率休妻与变相换妻的恶行。</p>
+              <p class="lang-af" style="margin-bottom:0;"><strong>Die Enigste Werklike Gebod (Dan):</strong> <em>Dan</em> mag die eerste man haar <strong>beslis nie</strong> weer terugneem nie—om ligtelike egskeiding en uitbuiting te keer.</p>
+            </div>
+          </div>
+
+          <div class="flow-arrow" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+          </div>
+
+          <div class="flow-step purpose">
+            <span class="cycle-num">03 · DUAL MOSAIC PURPOSE</span>
+            <div class="bi-pair">
+              <p class="lang-en" style="margin-bottom:0;"><strong>1) Concession to Hardness of Heart</strong> (<span class="lex-inline lex-heart">sklerokardia</span>): Civil law accommodated fallen reality without endorsing it (Calvin).<br><strong>2) Protection for the Wife:</strong> The certificate proved she was legally dismissed, protecting her from future claims by the first husband and clearing her from false charges of adultery.</p>
+              <p class="lang-zh" style="margin-bottom:0;"><strong>1) 对人心刚硬的容忍</strong>（<span class="lex-inline lex-heart">sklerokardia</span>）：加尔文指出，民事容许并不等同于神眼中的道德许可。<br><strong>2) 对弱势妻子的保护：</strong>休书证明她已合法离异，免受前夫日后的纠缠与勒索，也保护她免遭奸淫的诬告。</p>
+              <p class="lang-af" style="margin-bottom:0;"><strong>1) Toegewing aan Hardheid van Hart</strong> (<span class="lex-inline lex-heart">sklerokardia</span>): Burgerlike wet het sonde beperk sonder om dit goed te keur (Calvyn).<br><strong>2) Beskerming vir die Vrou:</strong> Die skeibrief het haar vrygespreek van valse owerspelaanklagte en verdere aansprake deur die eerste man.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Greek/Hebrew Transliteration Badges (Part 1 & 2 + Preview of 4) -->
+      <h3>
+        <span class="lang-en">Key Biblical Terms · Tap to Inspect</span>
+        <span class="lang-zh">核心希伯来文与希腊文词汇 · 点击查看释义</span>
+        <span class="lang-af">Sleutel Bybelse Terme · Tik om Te Bekyk</span>
+      </h3>
+      <div class="badge-strip" role="group" aria-label="Biblical language terms">
+        <button type="button" class="lex-badge lex-hebrew" id="badge-erwat" aria-expanded="false" onclick="toggleLex('erwat', 'badge-erwat')">
+          <span>'erwat dabar</span><span aria-hidden="true">· עֶרְוַת דָּבָר</span>
+        </button>
+        <button type="button" class="lex-badge lex-heart" id="badge-sklero" aria-expanded="false" onclick="toggleLex('sklero', 'badge-sklero')">
+          <span>sklerokardia</span><span aria-hidden="true">· σκληροκαρδία</span>
+        </button>
+        <button type="button" class="lex-badge lex-porneia" id="badge-porneia" aria-expanded="false" onclick="toggleLex('porneia', 'badge-porneia')">
+          <span>porneia</span><span aria-hidden="true">· πορνεία</span>
+        </button>
+        <button type="button" class="lex-badge lex-adultery" id="badge-moich" aria-expanded="false" onclick="toggleLex('moich', 'badge-moich')">
+          <span>moicheuthenai</span><span aria-hidden="true">· μοιχευθῆναι</span>
+        </button>
+      </div>
+      <div class="lex-detail-drawer" id="lex-drawer" hidden>
+        <div id="lex-drawer-content"></div>
+      </div>
+
+      <!-- Pause & Reflect #2 -->
+      <div class="reflect-card">
+        <div class="reflect-header">
+          <div>
+            <div class="reflect-kicker">
+              <span class="lang-en">Pause &amp; Reflect · 02</span>
+              <span class="lang-zh">停下反思 · 02</span>
+              <span class="lang-af">Staan Stil &amp; Dink Na · 02</span>
+            </div>
+            <p class="reflect-prompt">
+              <span class="lang-en">Do I treat what is legally permitted by human law as morally faithful before God—or do I look for loopholes when relationships grow hard?</span>
+              <span class="lang-zh">我是否曾把“世俗法律所允许的”当作“神眼中合宜的”？当关系变得艰难时，我是否也在寻找借口？</span>
+              <span class="lang-af">Behandel ek wat deur menslike wet toegelaat word as moreel getrou voor God—of soek ek skuiwergate wanneer verhoudings moeilik raak?</span>
+            </p>
+          </div>
+          <button type="button" class="reflect-toggle" id="toggle-note-2" aria-expanded="false" onclick="toggleNote('note-2', 'toggle-note-2')">
+            <span class="lang-en">Write Note</span><span class="lang-zh">记录笔记</span><span class="lang-af">Skryf Nota</span>
+          </button>
+        </div>
+        <div class="reflect-body" id="note-2" hidden>
+          <label class="note-label" for="input-note-2">
+            <span class="lang-en">Personal Sermon Note (saved automatically)</span>
+            <span class="lang-zh">个人听道笔记（自动保存）</span>
+            <span class="lang-af">Persoonlike Preeknota (outomaties gestoor)</span>
+          </label>
+          <textarea class="note-textarea" id="input-note-2" oninput="saveNote('note2', this.value, 'status-note-2')"></textarea>
+          <div class="note-status" id="status-note-2" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: What God Originally Purposed -->
+    <section id="sec-creation">
+      <div class="section-head">
+        <p class="section-kicker">
+          <span class="lang-en">Point 03 · Genesis 1:27 &amp; 2:24 Design</span>
+          <span class="lang-zh">第三点 · 创世记 1:27 与 2:24 的创造蓝图</span>
+          <span class="lang-af">Punt 03 · Genesis 1:27 &amp; 2:24 Skeppingsontwerp</span>
+        </p>
+        <h2>
+          <span class="lang-en">What God Originally Purposed</span>
+          <span class="lang-zh">神起初创造的心意</span>
+          <span class="lang-af">Wat God Oorspronklik Beoog Het</span>
+        </h2>
+      </div>
+
+      <div class="bi-pair">
+        <p class="lang-en">Notice Jesus’ hermeneutic: He superseded the Pharisees’ appeal to Mosaic case law by returning to <strong>God’s original creation design</strong>. Love, sex, and marriage belong to God’s image-bearing purpose for humanity—male and female united in lifelong covenant.</p>
+        <p class="lang-zh">请注意耶稣的解经方法：祂越过法利赛人所引用的摩西民事妥协条例，直接回到<strong>神起初创造的设计</strong>。爱、性与婚姻是神按着自己形象造男造女、建立终身盟约的原有旨意。</p>
+        <p class="lang-af">Let op Jesus se uitlegmetode: Hy het die Fariseërs se beroep op Mosaïese gevalsreg oortref deur terug te keer na <strong>God se oorspronklike skeppingsontwerp</strong>. Liefde, seksualiteit en die huwelik behoort tot God se beelddraende doel vir die mensdom—man en vrou verenig in ’n lewenslange verbond.</p>
+      </div>
+
+      <div class="scripture-card" role="region" aria-label="Matthew 19:4-6 Scripture Reading">
+        <span class="scripture-ref">
+          <span class="lang-en">Scripture Reading · Matthew 19:4–6 (cf. Genesis 1:27; 2:24)</span>
+          <span class="lang-zh">宣读经文 · 马太福音 19:4–6（参照 创世记 1:27；2:24）</span>
+          <span class="lang-af">Skriflesing · Matteus 19:4–6 (vgl. Genesis 1:27; 2:24)</span>
+        </span>
+        <div class="bi-pair">
+          <p class="scripture-quote lang-en"><span class="scripture-verse-num">4</span>“Haven’t you read,” he replied, “that at the beginning the Creator ‘made them male and female,’ <span class="scripture-verse-num">5</span>and said, ‘For this reason a man will leave his father and mother and be united to his wife, and the two will become one flesh’? <span class="scripture-verse-num">6</span>So they are no longer two, but one. Therefore what God has joined together, let man not separate.”</p>
+          <p class="scripture-quote lang-zh"><span class="scripture-verse-num">4</span>耶稣回答说：「那起初造人的，是造男造女，并且说：<span class="scripture-verse-num">5</span>『因此，人要离开父母，与妻子连合，二人成为一体。』这经你们没有念过吗？<span class="scripture-verse-num">6</span>既然如此，夫妻不再是两个人，乃是一体的了。所以，神配合的，人不可分开。」</p>
+          <p class="scripture-quote lang-af"><span class="scripture-verse-num">4</span>Hy antwoord en sê vir hulle: “Het julle nie gelees dat Hy wat hulle gemaak het, hulle van die begin af man en vrou gemaak het nie, <span class="scripture-verse-num">5</span>en gesê het: ‘Om dié rede sal die man sy vader en sy moeder verlaat en sy vrou aanhang, en die twee sal een vlees wees’? <span class="scripture-verse-num">6</span>So is hulle dan nie meer twee nie, maar een vlees. Wat God dan saamgevoeg het, mag geen mens skei nie.”</p>
+        </div>
+      </div>
+
+      <h3>
+        <span class="lang-en">The Creation Pattern Cards (Gen 2:24 / Matt 19:5)</span>
+        <span class="lang-zh">创造模式三部曲（创 2:24 / 太 19:5）</span>
+        <span class="lang-af">Die Skeppingspatroon-Kaarte (Gen 2:24 / Matt 19:5)</span>
+      </h3>
+
+      <div class="creation-grid">
+        <div class="creation-card">
+          <span class="creation-step-num">01 · <span class="lang-en">LEAVE</span><span class="lang-zh">离开</span><span class="lang-af">VERLAAT</span></span>
+          <h4 class="creation-title">
+            <span class="lang-en">Leave Father &amp; Mother</span>
+            <span class="lang-zh">离开父母</span>
+            <span class="lang-af">Verlaat Vader &amp; Moeder</span>
+          </h4>
+          <div><span class="lex-inline lex-hebrew">'azab / kataleipo</span></div>
+          <p class="lang-en" style="margin-bottom:0;">Stepping out from parental dependency and authority to establish a new, primary household allegiance.</p>
+          <p class="lang-zh" style="margin-bottom:0;">脱离对原生家庭父母的依赖与管辖，建立一个以新家庭为首要效忠对象的新关系。</p>
+          <p class="lang-af" style="margin-bottom:0;">Losmaking van ouerlike afhanklikheid en gesag om ’n nuwe, primêre huishoudelike verbintenis te vestig.</p>
+        </div>
+
+        <div class="creation-card">
+          <span class="creation-step-num">02 · <span class="lang-en">CLEAVE</span><span class="lang-zh">连合</span><span class="lang-af">AANHANG</span></span>
+          <h4 class="creation-title">
+            <span class="lang-en">Be United to Your Spouse</span>
+            <span class="lang-zh">与妻子连合</span>
+            <span class="lang-af">Kleef aan Jou Huweliksmaat</span>
+          </h4>
+          <div><span class="lex-inline lex-adultery">kollao (προσκολλάω)</span></div>
+          <p class="lang-en" style="margin-bottom:0;">Covenant bonding—being “glued together” in whole-person loyalty: emotionally, spiritually, and volitionally (like our union with Christ).</p>
+          <p class="lang-zh" style="margin-bottom:0;">盟约性的黏合——在情感、属灵与意志上全人彼此委身、紧紧相依（正如信徒与基督的联合）。</p>
+          <p class="lang-af" style="margin-bottom:0;">Verbondsloyaliteit—om emosioneel, geestelik en wilskragtig “vasgegom” te wees in heelhartige trou.</p>
+        </div>
+
+        <div class="creation-card">
+          <span class="creation-step-num">03 · <span class="lang-en">ONE FLESH</span><span class="lang-zh">成为一体</span><span class="lang-af">EEN VLEES</span></span>
+          <h4 class="creation-title">
+            <span class="lang-en">Become One Flesh</span>
+            <span class="lang-zh">二人成为一体</span>
+            <span class="lang-af">Word Een Vlees</span>
+          </h4>
+          <div><span class="lex-inline lex-porneia">basar echad · בָּשָׂר אֶחָד</span></div>
+          <p class="lang-en" style="margin-bottom:0;">Sexual intimacy was never meant to stand alone; it seals a lifelong covenant joined by God himself.</p>
+          <p class="lang-zh" style="margin-bottom:0;">性亲密从来不是孤立的体验，而是印证神亲自配合之终身盟约的印记。</p>
+          <p class="lang-af" style="margin-bottom:0;">Seksuele intimiteit is nooit bedoel om alleen te staan nie; dit verseël ’n lewenslange verbond wat God saamgevoeg het.</p>
+        </div>
+      </div>
+
+      <div class="bi-pair">
+        <p class="lang-en"><strong>For the unmarried as well as the married:</strong> Guarding yourself emotionally, spiritually, and physically today preserves your capacity to cleave deeply, joyfully, and wholeheartedly to your future spouse—while extramarital sex (<span class="lex-inline lex-porneia">porneia</span>) actively hinders God’s creation purpose.</p>
+        <p class="lang-zh"><strong>无论已婚或未婚：</strong>今天在情感、属灵与身体上保守自己圣洁，就是为了保留能力，将来能深深地、喜乐地、全心全意地与配偶连合；相反，婚外性行为（<span class="lex-inline lex-porneia">porneia</span>）则会破坏神创造的旨意。</p>
+        <p class="lang-af"><strong>Vir ongetroudes sowel as getroudes:</strong> Om jouself vandag emosioneel, geestelik en liggaamlik te bewaar, behou jou vermoë om diep en heelhartig aan jou toekomstige maat te kleef—terwyl buite-egtelike seks (<span class="lex-inline lex-porneia">porneia</span>) God se skeppingsdoel ondermyn.</p>
+      </div>
+
+      <!-- Pause & Reflect #3 -->
+      <div class="reflect-card">
+        <div class="reflect-header">
+          <div>
+            <div class="reflect-kicker">
+              <span class="lang-en">Pause &amp; Reflect · 03</span>
+              <span class="lang-zh">停下反思 · 03</span>
+              <span class="lang-af">Staan Stil &amp; Dink Na · 03</span>
+            </div>
+            <p class="reflect-prompt">
+              <span class="lang-en">Which of the three Creation Pattern movements—Leaving, Cleaving, or One-Flesh faithfulness—needs deliberate renewal in your season of life?</span>
+              <span class="lang-zh">在“离开、连合、成为一体”这三项创造模式中，你当前的生命阶段最需要刻意更新哪一项？</span>
+              <span class="lang-af">Watter een van die drie skeppingsbewegings—Verlaat, Aanhang of Een-Vlees-trou—benodig doelbewuste vernuwing in jou lewensseisoen?</span>
+            </p>
+          </div>
+          <button type="button" class="reflect-toggle" id="toggle-note-3" aria-expanded="false" onclick="toggleNote('note-3', 'toggle-note-3')">
+            <span class="lang-en">Write Note</span><span class="lang-zh">记录笔记</span><span class="lang-af">Skryf Nota</span>
+          </button>
+        </div>
+        <div class="reflect-body" id="note-3" hidden>
+          <label class="note-label" for="input-note-3">
+            <span class="lang-en">Personal Sermon Note (saved automatically)</span>
+            <span class="lang-zh">个人听道笔记（自动保存）</span>
+            <span class="lang-af">Persoonlike Preeknota (outomaties gestoor)</span>
+          </label>
+          <textarea class="note-textarea" id="input-note-3" oninput="saveNote('note3', this.value, 'status-note-3')"></textarea>
+          <div class="note-status" id="status-note-3" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: What Jesus Said -->
+    <section id="sec-jesus">
+      <div class="section-head">
+        <p class="section-kicker">
+          <span class="lang-en">Point 04 · Authority, Exceptions &amp; Pastoral Boundaries</span>
+          <span class="lang-zh">第四点 · 主耶稣的权威教导与牧养边界</span>
+          <span class="lang-af">Punt 04 · Gesag, Uitsonderings &amp; Pastorale Grense</span>
+        </p>
+        <h2>
+          <span class="lang-en">What Jesus Said (Matt 5:32; 19:9; Luke 16:18)</span>
+          <span class="lang-zh">主耶稣说什么（太 5:32；19:9；路 16:18）</span>
+          <span class="lang-af">Wat Jesus Gesê Het (Matt 5:32; 19:9; Luk 16:18)</span>
+        </h2>
+      </div>
+
+      <div class="bi-pair">
+        <p class="lang-en">With the authoritative formula <em>“But I tell you”</em> (<em>ego de lego hymin</em>—the same authority used against anger in v. 22 and lust in v. 28), Jesus dismantles “any-cause” divorce and teaches two core truths:</p>
+        <p class="lang-zh">耶稣再次使用极具权威的句式<em>“只是我告诉你们”</em>（<em>ego de lego hymin</em>——正如在 22 节论发怒、28 节论情欲时一样），彻底推翻“任何理由皆可离婚”的文化，确立两项核心真理：</p>
+        <p class="lang-af">Met die gesaghebbende formule <em>“Maar Ek sê vir julle”</em> (<em>ego de lego hymin</em>—dieselfde gesag as teen woede in v. 22 en wellus in v. 28), verwerp Jesus “enige-rede”-egskeiding en leer twee kernwaarhede:</p>
+      </div>
+
+      <div class="card-grid">
+        <div class="figure-card">
+          <div class="figure-label"><span class="lang-en">01 · Legitimate Ground (Permitted ≠ Commanded)</span><span class="lang-zh">01 · 合法例外（容许 ≠ 命令）</span><span class="lang-af">01 · Geldige Grond (Toegelaat ≠ Beveel)</span></div>
+          <p style="margin: var(--space-xs) 0 0;">
+            <span class="lang-en">Jesus recognizes <span class="lex-inline lex-porneia">porneia</span> (persistent, unrepentant sexual immorality) as a covenant-rupturing ground where divorce is <strong>permitted</strong>—yet <strong>never commanded</strong>. Because God calls us to forgive, repentance and reconciliation must always be pursued first.</span>
+            <span class="lang-zh">耶稣承认 <span class="lex-inline lex-porneia">porneia</span>（持久、不悔改的性淫乱）从根本上破坏了婚姻盟约，因此离婚是<strong>被允许</strong>的，但<strong>绝非被命令</strong>的。神呼召我们彼此饶恕，因此应当首先寻求悔改与和好。</span>
+            <span class="lang-af">Jesus erken <span class="lex-inline lex-porneia">porneia</span> (volhardende seksuele ontrou) as ’n verbondbrekende grond waar egskeiding <strong>toegelaat</strong> word—dog <strong>nooit beveel</strong> nie. Vergifnis en versoening moet altyd eerste nagestreef word.</span>
+          </p>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-label"><span class="lang-en">02 · Rejecting “Any-Cause” Divorce</span><span class="lang-zh">02 · 拒绝随意离婚</span><span class="lang-af">02 · Verwerping van “Enige Rede”-Egskeiding</span></div>
+          <p style="margin: var(--space-xs) 0 0;">
+            <span class="lang-en">Divorcing without biblical grounds <strong>causes adultery</strong> (<span class="lex-inline lex-adultery">moicheuthenai</span>). A human divorce certificate cannot dissolve what God has joined together; it pushes the dismissed spouse—and anyone who marries her—into an adulterous union.</span>
+            <span class="lang-zh">没有合乎圣经依据的离婚，会<strong>使人陷在奸淫里</strong>（<span class="lex-inline lex-adultery">moicheuthenai</span>）。一纸属人的休书不能废除神所配合的联合，反倒会把被休者及迎娶她的人推入奸淫的关系中。</span>
+            <span class="lang-af">Egskeiding sonder Bybelse gronde <strong>veroorsaak owerspel</strong> (<span class="lex-inline lex-adultery">moicheuthenai</span>). ’n Menslike skeibrief kan nie ontbind wat God saamgevoeg het nie; dit dryf die weggestuurde maat—en wie haar trou—in owerspel in.</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Pauline Concession, Abuse & Gospel Grace -->
+      <h3>
+        <span class="lang-en">Biblical Synthesis: Abandonment, Abuse &amp; Gospel Grace</span>
+        <span class="lang-zh">全本圣经的整全视角：遗弃、家暴与福音的恩典</span>
+        <span class="lang-af">Bybelse Sintese: Verlating, Mishandeling &amp; Evangelie-Genade</span>
+      </h3>
+
+      <div class="scripture-card" role="region" aria-label="1 Corinthians 7:10-15 Scripture Reading">
+        <span class="scripture-ref">
+          <span class="lang-en">Apostolic Witness · 1 Corinthians 7:10–11, 15</span>
+          <span class="lang-zh">使徒的见证 · 哥林多前书 7:10–11, 15</span>
+          <span class="lang-af">Apostoliese Getuienis · 1 Korintiërs 7:10–11, 15</span>
+        </span>
+        <div class="bi-pair">
+          <p class="scripture-quote lang-en"><span class="scripture-verse-num">10</span>“A wife must not separate from her husband. <span class="scripture-verse-num">11</span>But if she does, she must remain unmarried or else be reconciled to her husband. And a husband must not divorce his wife… <span class="scripture-verse-num">15</span>But if the unbeliever leaves, let it be so. The brother or the sister is not bound in such circumstances; God has called us to live in peace.”</p>
+          <p class="scripture-quote lang-zh"><span class="scripture-verse-num">10</span>「妻子不可离开丈夫，<span class="scripture-verse-num">11</span>若是离开了，不可再嫁，或是仍同丈夫和好。丈夫也不可离弃妻子。……<span class="scripture-verse-num">15</span>倘若那不信的人要离去，就由他离去吧！无论是弟兄，是姐妹，遇着这样的事都不必拘束。神召我们原是要我们和睦。」</p>
+          <p class="scripture-quote lang-af"><span class="scripture-verse-num">10</span>“’n Vrou moet nie van haar man skei nie; <span class="scripture-verse-num">11</span>maar as sy tog skei, moet sy ongetroud bly of haar met haar man versoen; en ’n man moet sy vrou nie verlaat nie… <span class="scripture-verse-num">15</span>Maar as die ongelowige wil skei, laat hom skei; die broer of die suster is in sulke gevalle nie gebonde nie, maar God het ons tot vrede geroep.”</p>
+        </div>
+      </div>
+
+      <div class="bi-pair">
+        <p class="lang-en"><strong>1. Desertion by an Unbeliever (1 Cor 7:15):</strong> Paul applies Jesus’ teaching—believers stay married (vv. 10–11), yet if an unbelieving spouse obstinately abandons the covenant, the deserted believer is “not bound.”<br><strong>2. Physical Abuse &amp; Criminal Harm:</strong> As D. A. Carson emphasizes on Matthew 19, the Bible never sanctions ignoring physical abuse; violent abuse is a criminal and immoral matter requiring civil court protection and prosecution to keep victims safe.<br><strong>3. Grace for the Divorced &amp; Remarried:</strong> Even when past failures occurred outside biblical exceptions, repentant divorced and remarried Christians belong fully to the body of Christ and are called to honor God in their present lives and marriages.</p>
+        <p class="lang-zh"><strong>1. 不信配偶的遗弃（林前 7:15）：</strong>保罗延展主的教导——信徒应当留守婚姻（10–11节）；但若不信的一方执意离弃盟约，被遗弃的信徒便“不必拘束”。<br><strong>2. 肢体虐待与犯罪伤害：</strong>正如卡森（D. A. Carson）在论及马太福音 19 章时所强调，圣经绝不允许姑息暴力虐待；家暴是刑事犯罪与不义之事，应当寻求法律保护与司法追究以保障受害者安全。<br><strong>3. 给离婚与再婚者的福音恩典：</strong>即使过去曾因不合圣经的缘由离婚或再婚，悔改信靠基督的肢体仍然完全属于基督的身体，并蒙召在当下的生命与婚姻中荣耀神。</p>
+        <p class="lang-af"><strong>1. Verlating deur ’n Ongelowige (1 Kor 7:15):</strong> Paulus pas Jesus se leer toe—gelowiges bly getroud (vv. 10–11), maar as ’n ongelowige maat hardnekkig die verbond verbreek en vertrek, is die gelowige “nie gebonde nie.”<br><strong>2. Fisiese Mishandeling &amp; Kriminele Skade:</strong> Soos D. A. Carson op Matteus 19 beklemtoon, keur die Bybel nooit die ignorering van fisiese mishandeling goed nie; geweld vereis regsbeskerming en vervolging om slagoffers te beskerm.<br><strong>3. Genade vir Geskeides &amp; Hertroudes:</strong> Selfs waar vorige mislukkings voorgekom het, behoort berouvolle geskeide en hertroude Christene ten volle tot die liggaam van Christus.</p>
+      </div>
+
+      <!-- Pause & Reflect #4 -->
+      <div class="reflect-card">
+        <div class="reflect-header">
+          <div>
+            <div class="reflect-kicker">
+              <span class="lang-en">Pause &amp; Reflect · 04</span>
+              <span class="lang-zh">停下反思 · 04</span>
+              <span class="lang-af">Staan Stil &amp; Dink Na · 04</span>
+            </div>
+            <p class="reflect-prompt">
+              <span class="lang-en">How does the gospel (“while we were yet sinners, Christ died for us”) empower you to pursue reconciliation, patience, or healing today?</span>
+              <span class="lang-zh">福音（“在我们还作罪人的时候，基督就为我们死了”）如何赐给你力量，在今天追求和好、忍耐或医治？</span>
+              <span class="lang-af">Hoe bemagtig die evangelie (“toe ons nog sondaars was, het Christus vir ons gesterf”) jou om vandag versoening, geduld of genesing na te jaag?</span>
+            </p>
+          </div>
+          <button type="button" class="reflect-toggle" id="toggle-note-4" aria-expanded="false" onclick="toggleNote('note-4', 'toggle-note-4')">
+            <span class="lang-en">Write Note</span><span class="lang-zh">记录笔记</span><span class="lang-af">Skryf Nota</span>
+          </button>
+        </div>
+        <div class="reflect-body" id="note-4" hidden>
+          <label class="note-label" for="input-note-4">
+            <span class="lang-en">Personal Sermon Note (saved automatically)</span>
+            <span class="lang-zh">个人听道笔记（自动保存）</span>
+            <span class="lang-af">Persoonlike Preeknota (outomaties gestoor)</span>
+          </label>
+          <textarea class="note-textarea" id="input-note-4" oninput="saveNote('note4', this.value, 'status-note-4')"></textarea>
+          <div class="note-status" id="status-note-4" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Active Discipleship vs. Nominality Protection Matrix -->
+    <section id="sec-practice">
+      <div class="section-head">
+        <p class="section-kicker">
+          <span class="lang-en">Application · Empirical Protective Factors</span>
+          <span class="lang-zh">门徒应用 · 实证数据中的婚姻保护因素</span>
+          <span class="lang-af">Toepassing · Empiriese Beskermende Faktore</span>
+        </p>
+        <h2>
+          <span class="lang-en">Active Discipleship vs. Nominality Protection Matrix</span>
+          <span class="lang-zh">真实门徒生命 vs. 挂名信仰的婚姻保护矩阵</span>
+          <span class="lang-af">Aktiewe Dissipelskap teenoor Nominale Geloof-Beskermingsmatriks</span>
+        </h2>
+      </div>
+
+      <div class="bi-pair">
+        <p class="lang-en">Empirical research refutes the popular myth that Christians divorce at the same rate as the secular culture. The decisive divider is not a nominal label—it is <strong>active, participatory discipleship</strong>, which lowers divorce likelihood by <strong>31% to 97%</strong> across controlled studies.</p>
+        <p class="lang-zh">实证研究打破了“基督徒的离婚率与世俗社会无异”的流言。真正决定婚姻稳固性的，不是挂名的宗教标签，而是<strong>积极参与的门徒操练</strong>——在控制社会经济变量的研究中，活跃信仰群体离婚风险降低 <strong>31% 至 97%</strong>。</p>
+        <p class="lang-af">Empiriese navorsing weerlê die mite dat Christene teen dieselfde koers as die sekulêre kultuur skei. Die deurslaggewende verskil is nie ’n nominale etiket nie, maar <strong>aktiewe, deelnemende dissipelskap</strong>, wat egskeidingsrisiko met <strong>31% tot 97%</strong> verlaag.</p>
+      </div>
+
+      <div class="chart-panel">
+        <div class="chart-title">
+          <span class="lang-en">Divorce Risk &amp; Protection: Nominality vs. Active Practice</span>
+          <span class="lang-zh">离婚风险与保护对比：挂名信仰 vs. 积极操练</span>
+          <span class="lang-af">Egskeidingsrisiko &amp; Beskerming: Nominaal teenoor Aktiewe Praktyk</span>
+        </div>
+        <p class="chart-subtitle">
+          <span class="lang-en">Observed lifetime divorce share (US adults) and empirical risk reduction from active faith participation (Wilcox / Pew).</span>
+          <span class="lang-zh">美国成年人终身离婚比例（皮尤 / 神召会研究）及积极信仰参与带来的风险降幅（Wilcox 研究）。</span>
+          <span class="lang-af">Waargenome lewenslange egskeidingsaandeel (VSA) en empiriese risikovermindering deur aktiewe geloofsdeelname.</span>
+        </p>
+        <div class="chart-box">
+          <canvas id="discipleshipChart" aria-label="Chart comparing divorce rates and active faith protection"></canvas>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th><span class="lang-en">Dimension</span><span class="lang-zh">维度</span><span class="lang-af">Dimensie</span></th>
+              <th><span class="lang-en">Nominal Affiliation (Elevated Risk)</span><span class="lang-zh">挂名信仰（高风险）</span><span class="lang-af">Nominale Geloof (Verhoogde Risiko)</span></th>
+              <th><span class="lang-en">Active Discipleship (31–97% Lower Risk)</span><span class="lang-zh">真实门徒生命（风险降低 31–97%）</span><span class="lang-af">Aktiewe Dissipelskap (31–97% Laer Risiko)</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong><span class="lang-en">Belief &amp; Practice</span><span class="lang-zh">信仰与生活</span><span class="lang-af">Geloof &amp; Praktyk</span></strong></td>
+              <td>
+                <span class="lang-en">Cognitive compartmentation: keeping an abstract religious label while separating private sexual choices from Scripture.</span>
+                <span class="lang-zh">认知割裂：保留抽象的信仰身份，却将私下的性选择与圣经真理完全脱钩。</span>
+                <span class="lang-af">Kognitiewe kompartementering: behou ’n abstrakte etiket maar skei privaat seksuele keuses van die Skrif.</span>
+              </td>
+              <td>
+                <span class="lang-en">Regular worship, Scripture saturation, and prayer aligning heart desires with God’s covenant Word.</span>
+                <span class="lang-zh">恒常敬拜、扎根圣经与祷告，使内心的渴望对齐神的盟约话语。</span>
+                <span class="lang-af">Gereelde aanbidding, Skrifversadiging en gebed wat hartsbegeertes belyn met God se verbondswoord.</span>
+              </td>
+            </tr>
+            <tr>
+              <td><strong><span class="lang-en">Heart Vigilance</span><span class="lang-zh">内心守望</span><span class="lang-af">Hartwaaksaamheid</span></strong></td>
+              <td>
+                <span class="lang-en">Feeds the eye/ear inflow; normalizes digital affairs, emotional wandering, or cultural permissiveness.</span>
+                <span class="lang-zh">放纵眼目与耳闻的入口，把网络暧昧、情感游离或文化纵容视为常态。</span>
+                <span class="lang-af">Voed die oog/oor-invloei; normaliseer digitale verhoudings en emosionele afdwaal.</span>
+              </td>
+              <td>
+                <span class="lang-en">Makes a covenant with the eyes (Job 31:1; Matt 5:27–30); cuts off temptation before it takes root.</span>
+                <span class="lang-zh">与眼睛立约（伯 31:1；太 5:27–30），在试探生根之前果断截断。</span>
+                <span class="lang-af">Sluit ’n verbond met die oë (Job 31:1; Matt 5:27–30); sny versoeking af voordat dit wortel skiet.</span>
+              </td>
+            </tr>
+            <tr>
+              <td><strong><span class="lang-en">Conflict Lens</span><span class="lang-zh">冲突视角</span><span class="lang-af">Konfliklens</span></strong></td>
+              <td>
+                <span class="lang-en">Asks “What’s in it for me?”; pursues relief and quick exit when compatibility fades.</span>
+                <span class="lang-zh">追问“这对我有什么好处？”；一旦感觉不合便寻求自我解脱与轻易退出。</span>
+                <span class="lang-af">Vra “Wat is daarin vir my?”; soek vinnige verligting en uitgang wanneer gevoelens verflou.</span>
+              </td>
+              <td>
+                <span class="lang-en">Pursues what is most glorifying to Christ; chooses sacrificial love and forgiveness when it costs most.</span>
+                <span class="lang-zh">追求最能荣耀基督的选择；在最艰难的时刻仍选择舍己的爱与饶恕。</span>
+                <span class="lang-af">Jaag na wat Christus die meeste verheerlik; kies opofferende liefde en vergifnis wanneer dit die duurste kos.</span>
+              </td>
+            </tr>
+            <tr>
+              <td><strong><span class="lang-en">Community</span><span class="lang-zh">群体支持</span><span class="lang-af">Gemeenskap</span></strong></td>
+              <td>
+                <span class="lang-en">Isolated couple facing economic stress and conflict alone, avoiding church accountability.</span>
+                <span class="lang-zh">夫妻孤立无援地独自面对经济与关系冲突，回避教会的属灵遮盖与守望。</span>
+                <span class="lang-af">Geïsoleerde egpaar wat finansiële en konflikdruk alleen hanteer, sonder gemeente-aanspreeklikheid.</span>
+              </td>
+              <td>
+                <span class="lang-en">Embedded in a small group and elder care—providing mediation, counsel, and practical help in crisis.</span>
+                <span class="lang-zh">委身于小组与长老牧养——在危机中获得真理调解、属灵劝勉与实际扶持。</span>
+                <span class="lang-af">Ingebed in ’n kleingroep en ouderlingesorg—wat bemiddeling, raad en praktiese hulp in krisis bied.</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Section 6: Small Group Discussion, Pastoral Prayer & Export -->
+    <section id="sec-discuss">
+      <div class="section-head">
+        <p class="section-kicker">
+          <span class="lang-en">Community &amp; Response</span>
+          <span class="lang-zh">团契回应与祷告</span>
+          <span class="lang-af">Gemeenskap &amp; Antwoord</span>
+        </p>
+        <h2>
+          <span class="lang-en">Small Group Discussion &amp; Pastoral Prayer</span>
+          <span class="lang-zh">小组讨论问题与牧师祷告</span>
+          <span class="lang-af">Kleingroepbespreking &amp; Pastorale Gebed</span>
+        </h2>
+      </div>
+
+      <div class="discussion-list">
+        <div class="discussion-item">
+          <input type="checkbox" class="discussion-check" id="disc-1" aria-label="Mark question 1 discussed" onchange="saveChecks()">
+          <div>
+            <span class="discussion-num">QUESTION 01</span>
+            <label for="disc-1" style="cursor: pointer;">
+              <span class="lang-en">How do modern “no-fault / any-cause” attitudes—or entering marriage asking “What’s in it for me?”—resemble the Hillelite loophole Jesus confronted in Matthew 5:31–32?</span>
+              <span class="lang-zh">现代社会“无过错 / 任何理由皆可离婚”的观念，或带着“这对我有什么好处？”的心态进入婚姻，与耶稣在太 5:31–32 所斥责的希勒尔学派漏洞有何相似之处？</span>
+              <span class="lang-af">Hoe stem moderne “enige-rede”-houdings—of om die huwelik binne te gaan met “Wat is daarin vir my?”—ooreen met die Hillel-skuiwergat wat Jesus in Matteus 5:31–32 aangespreek het?</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="discussion-item">
+          <input type="checkbox" class="discussion-check" id="disc-2" aria-label="Mark question 2 discussed" onchange="saveChecks()">
+          <div>
+            <span class="discussion-num">QUESTION 02</span>
+            <label for="disc-2" style="cursor: pointer;">
+              <span class="lang-en">Why did Moses permit a certificate of divorce in Deuteronomy 24:1–4 (<em>sklerokardia</em> and protection of the wife), and why does Jesus insist we reason from Genesis 1–2 instead of case law?</span>
+              <span class="lang-zh">为什么摩西在申命记 24:1–4 容许休书的存在（人的心硬与保护妻子），而耶稣却坚持带领我们回到创世记 1–2 章而非停留在妥协条例上？</span>
+              <span class="lang-af">Waarom het Moses ’n skeibrief in Deuteronomium 24:1–4 toegelaat (<em>sklerokardia</em> en beskerming van die vrou), en waarom dring Jesus daarop aan dat ons uit Genesis 1–2 redeneer?</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="discussion-item">
+          <input type="checkbox" class="discussion-check" id="disc-3" aria-label="Mark question 3 discussed" onchange="saveChecks()">
+          <div>
+            <span class="discussion-num">QUESTION 03</span>
+            <label for="disc-3" style="cursor: pointer;">
+              <span class="lang-en">Whether you are married or single, what practical boundary can you set this week at the <em>inflow</em> (eyes/ears) and <em>outflow</em> (actions) of your heart to guard covenant faithfulness?</span>
+              <span class="lang-zh">无论你目前是已婚还是单身，这周你可以为内心的“入口”（眼目与耳闻）与“出口”（行动）设定什么具体的界线，以守护盟约的忠贞？</span>
+              <span class="lang-af">Of jy nou getroud of ongetroud is, watter praktiese grens kan jy hierdie week by die <em>invloei</em> (oë/ore) en <em>uitvloei</em> (dade) van jou hart stel om verbondstrou te bewaar?</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="discussion-item">
+          <input type="checkbox" class="discussion-check" id="disc-4" aria-label="Mark question 4 discussed" onchange="saveChecks()">
+          <div>
+            <span class="discussion-num">QUESTION 04</span>
+            <label for="disc-4" style="cursor: pointer;">
+              <span class="lang-en">How can our congregation simultaneously uphold God’s high standard for lifelong marriage, fiercely protect victims of abuse, and surround divorced or remarried believers with gospel grace?</span>
+              <span class="lang-zh">我们的教会如何能同时坚守神对终身婚姻的高标准、坚定保护家暴受害者，并以福音的恩典接纳和扶持曾经离婚或再婚的弟兄姐妹？</span>
+              <span class="lang-af">Hoe kan ons gemeente tegelykertyd God se hoë standaard vir lewenslange huwelike handhaaf, slagoffers van mishandeling beskerm, en geskeide of hertroude gelowiges met evangelie-genade omarm?</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pastoral Prayer -->
+      <div class="prayer-card">
+        <h3>
+          <span class="lang-en">Pastoral Prayer</span>
+          <span class="lang-zh">牧师祷告</span>
+          <span class="lang-af">Pastorale Gebed</span>
+        </h3>
+        <div class="bi-pair">
+          <p class="prayer-text lang-en">Heavenly Father, Creator of male and female and Author of the marriage covenant, forgive us where our hearts have grown hard, impatient, or quick to seek escape instead of faithfulness. Guard our eyes, ears, and hearts against every rival desire. Strengthen husbands and wives among us to leave, cleave, and love as Christ loves the Church. Protect the vulnerable from harm, heal those carrying deep wounds from broken covenants, and anchor every home in Your steadfast grace. In Jesus’ name, Amen.</p>
+          <p class="prayer-text lang-zh">天父啊，你是造男造女、设立婚姻盟约的主。求你赦免我们心中曾有的刚硬、急躁，以及在艰难中轻易想逃避的软弱。求你保守我们的眼目、耳朵和内心，抵挡一切侵蚀忠贞的私欲。求你坚固我们当中的每一对夫妻，使我们学会离开、连合，并以基督爱教会的心彼此相爱。求你护佑受伤害的弱者，医治经历婚姻破碎之人的伤痛，并将每一个家庭深深扎根在你信实的恩典中。奉主耶稣的名祷告，阿们。</p>
+          <p class="prayer-text lang-af">Hemelse Vader, Skepper van man en vrou en Insteller van die huweliksverbond, vergewe ons waar ons harte hard, ongeduldig of haastig geword het om ontvlugting bo trou te soek. Bewaar ons oë, ore en harte teen elke mededingende begeerte. Versterk mans en vroue onder ons om te verlaat, aan te hang en lief te hê soos Christus die Kerk liefhet. Beskerm die weerloses teen leed, genees diegene met diep wonde van gebroke verbonde, en anker elke huis in U standvastige genade. In Jesus se naam, Amen.</p>
+        </div>
+      </div>
+
+      <!-- Notes Summary & Export Bar -->
+      <div class="action-bar">
+        <span id="notes-summary-count" style="font-family: var(--font-label); font-size: var(--label-size); color: var(--on-surface-variant);">
+          0 / 4 notes saved
+        </span>
+        <button type="button" class="btn-primary" onclick="exportSermonNotes()">
+          <span class="lang-en">Download My Notes (.txt)</span>
+          <span class="lang-zh">导出我的笔记 (.txt)</span>
+          <span class="lang-af">Laai My Notas Af (.txt)</span>
+        </button>
+        <button type="button" class="btn-secondary" id="clear-notes-btn" onclick="clearAllNotes(this)">
+          <span class="lang-en">Clear Notes</span>
+          <span class="lang-zh">清除笔记</span>
+          <span class="lang-af">Vee Notas Uit</span>
+        </button>
+        <span id="action-feedback" class="note-status" style="margin-top:0;" aria-live="polite"></span>
+      </div>
+
+      <footer class="sources-footer">
+        <strong><span class="lang-en">Sources &amp; Attributions:</span><span class="lang-zh">参考资料来源：</span><span class="lang-af">Bronne &amp; Erkennings:</span></strong>
+        <span class="lang-en">Sermon outline and biblical exegesis adapted from <em>Matthew 5:31–32: Marriage, Divorce, and Remarriage</em> (Nov 2026), drawing on R. T. France (<em>Matthew</em>, NICNT), John Stott (<em>Sermon on the Mount</em>), John Calvin (<em>Harmony of the Evangelists</em>), Josephus (<em>Jewish Antiquities</em> 15.259), D. A. Carson (<em>Matthew 19:1–11</em>), Assemblies of God (2024 Position Paper), and EPC Position Paper. Global demographic &amp; sociological metrics from OECD <em>Society at a Glance 2024</em> (SF3.1), <em>Our World in Data</em> (2025), Pew Research Center (2025), CDC/NCHS, Dong (2023) on China’s 30-day cooling-off period, Khon Kaen court filings &amp; Thai Civil and Commercial Code (§§ 1516, 1523), and W. Bradford Wilcox religious-practice analysis.</span>
+        <span class="lang-zh">讲章大纲与释经改编自《马太福音 5:31–32：婚姻、离婚与再婚》（2026年11月），参考 R. T. France、John Stott、加尔文《福音书和谐注释》、约瑟夫斯《犹太古史》15.259、D. A. Carson、神召会（2024立场文件）及 EPC 文献。全球婚姻与社会学数据引自 OECD《社会概览 2024》、Our World in Data（2025）、皮尤研究中心（2025）、CDC/NCHS、中国离婚冷静期实证研究（Dong, 2023）、泰国孔敬府法院及《泰国民商法典》第1516/1523条，以及 W. Bradford Wilcox 宗教参与度研究。</span>
+        <span class="lang-af">Preekraamwerk en eksegese verwerk uit <em>Matthew 5:31–32: Marriage, Divorce, and Remarriage</em> (Nov 2026), met verwysing na R. T. France, John Stott, Johannes Calvyn, Josefus (<em>Ant.</em> 15.259), D. A. Carson en Assemblies of God (2024). Globale demografiese data uit OESO (2024), <em>Our World in Data</em> (2025), Pew Research Center (2025), China se 30-dae afkoeltydperk (Dong, 2023), Thailand se Siviele Wetboek (§§ 1516, 1523), en W. Bradford Wilcox se navorsing.</span>
+      </footer>
+    </section>
+
+  </main>
+
+  <api-shim></api-shim>
+  <script>
+    const LEXICON_DATA = {
+      erwat: {
+        term: `'erwat dabar (עֶרְוַת דָּבָר)`,
+        en: `<strong>Hebrew · Deuteronomy 24:1 (“something indecent / shameful matter”).</strong> The entire first-century rabbinic dispute turned on this phrase. Shammai read it as a single construct referring strictly to serious sexual immorality, whereas Hillel separated “finds no favor” from “indecency” to allow divorce for any trivial annoyance.`,
+        zh: `<strong>希伯来文 · 申命记 24:1（“不合理的事 / 羞耻的事”）。</strong>第一世纪拉比学派的争论核心即在于此词。沙迈学派将其视为不可分割的词组，指严重的性淫乱；希勒尔学派则断章取义，将其演变为“无论任何微小的不满”皆可休妻的借口。`,
+        af: `<strong>Hebreeus · Deuteronomium 24:1 (“iets skandeliks”).</strong> Die hele eersteeuse rabbynse debat het om dié frase gedraai. Sjammai het dit tot ernstige seksuele ontrou beperk, terwyl Hillel dit geskei het om egskeiding oor enige kleinigheid toe te laat.`
+      },
+      sklero: {
+        term: `sklerokardia (σκληροκαρδία)`,
+        en: `<strong>Greek · Matthew 19:8 (“hardness of heart”).</strong> Explains why Moses permitted a written certificate of divorce. It was never God’s creation ideal—it was a civil concession to restrain sinful human stubbornness and protect vulnerable wives from exploitation.`,
+        zh: `<strong>希腊文 · 马太福音 19:8（“心硬”）。</strong>解释了摩西为何容许休书的存在。这绝非神创造的理想，而是针对堕落人类顽梗心肠的民事让步，用以约束罪恶并保护被休的妻子免遭诬陷。`,
+        af: `<strong>Grieks · Matteus 19:8 (“hardheid van hart”).</strong> Verduidelik waarom Moses ’n skeibrief toegelaat het. Dit was nooit God se skeppingsideaal nie, maar ’n siviele regulering om sondige hardnekkigheid te beperk en vroue te beskerm.`
+      },
+      porneia: {
+        term: `porneia (πορνεία)`,
+        en: `<strong>Greek · Matthew 5:32; 19:9 (“marital unfaithfulness / sexual immorality”).</strong> Broader than <em>moicheia</em> (adultery), encompassing all forms of sexual sin that fundamentally violate the one-flesh covenant bond. Jesus permits divorce in this narrow circumstance, though never commands it.`,
+        zh: `<strong>希腊文 · 马太福音 5:32；19:9（“淫乱 / 婚姻不忠”）。</strong>其词义比狭义的“奸淫”（<em>moicheia</em>）更广，涵盖一切从根本上破坏“二人成为一体”盟约的性犯罪。耶稣仅在此情况下容许离婚，但从未命令必须离婚。`,
+        af: `<strong>Grieks · Matteus 5:32; 19:9 (“seksuele ontrou / onsedelikheid”).</strong> Breër as <em>moicheia</em> (owerspel), en omvat alle seksuele sonde wat die een-vlees-verbond fundamenteel verbreek. Jesus laat egskeiding hier toe, maar beveel dit nooit.`
+      },
+      moich: {
+        term: `moicheuthenai (μοιχευθῆναι)`,
+        en: `<strong>Greek · Matthew 5:32 (“causes her to commit adultery”).</strong> Passive infinitive showing the moral consequence of an illegitimate divorce: because a human paper cannot dissolve what God has joined, sending a wife away without biblical grounds drives her into an adulterous remarriage.`,
+        zh: `<strong>希腊文 · 马太福音 5:32（“叫她作淫妇 / 使她犯奸淫”）。</strong>被动语态不定式，揭示了非法离婚的严重后果：属人的休书无法废除神所配合的婚姻，无故休妻等同于把她推入犯奸淫的再婚境地。`,
+        af: `<strong>Grieks · Matteus 5:32 (“maak dat sy owerspel pleeg”).</strong> Passiewe vorm wat die gevolg van onbybelse egskeiding toon: ’n menslike dokument ontbind nie wat God saamgevoeg het nie, en dryf die vrou tot ’n owerspelige tweede huwelik.`
+      }
+    };
+
+    const appState = {
+      lang: 'en',
+      region: 'all',
+      activeLex: null,
+      notes: {
+        note1: ``,
+        note2: ``,
+        note3: ``,
+        note4: ``
+      },
+      checks: [false, false, false, false]
+    };
+
+    let demoChartInstance = null;
+    let discChartInstance = null;
+
+    function getToken(name) {
+      return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    }
+
+    function setLanguage(mode) {
+      appState.lang = mode;
+      document.documentElement.setAttribute('data-lang', mode);
+      document.documentElement.lang = mode === 'zh' ? 'zh-Hans' : (mode === 'af' ? 'af' : 'en');
+
+      const btns = {
+        en: document.getElementById('btn-lang-en'),
+        zh: document.getElementById('btn-lang-zh'),
+        af: document.getElementById('btn-lang-af'),
+        bi: document.getElementById('btn-lang-bi')
+      };
+      Object.keys(btns).forEach(function (k) {
+        if (btns[k]) {
+          btns[k].setAttribute('aria-pressed', k === mode ? 'true' : 'false');
+        }
+      });
+
+      if (appState.activeLex) {
+        renderLexDrawer(appState.activeLex);
+      }
+      updateNotesSummary();
+      renderCharts();
+      persistState();
+    }
+
+    function filterRegion(region) {
+      appState.region = region;
+      const buttons = document.querySelectorAll('.filter-btn[data-region]');
+      buttons.forEach(function (btn) {
+        btn.setAttribute('aria-pressed', btn.dataset.region === region ? 'true' : 'false');
+      });
+
+      const rows = document.querySelectorAll('tr[data-region-row]');
+      rows.forEach(function (row) {
+        if (region === 'all' || row.dataset.regionRow === region) {
+          row.classList.remove('row-hidden');
+        } else {
+          row.classList.add('row-hidden');
+        }
+      });
+
+      const cards = document.querySelectorAll('.figure-card[data-region-card]');
+      cards.forEach(function (card) {
+        if (region === 'all' || card.dataset.regionCard === region) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      persistState();
+    }
+
+    function toggleLex(key, btnId) {
+      const drawer = document.getElementById('lex-drawer');
+      if (!drawer) return;
+
+      const allBadges = ['badge-erwat', 'badge-sklero', 'badge-porneia', 'badge-moich'];
+      if (appState.activeLex === key && !drawer.hidden) {
+        drawer.hidden = true;
+        appState.activeLex = null;
+        allBadges.forEach(function (id) {
+          const b = document.getElementById(id);
+          if (b) b.setAttribute('aria-expanded', 'false');
+        });
+        return;
+      }
+
+      appState.activeLex = key;
+      allBadges.forEach(function (id) {
+        const b = document.getElementById(id);
+        if (b) b.setAttribute('aria-expanded', id === btnId ? 'true' : 'false');
+      });
+      renderLexDrawer(key);
+      drawer.hidden = false;
+    }
+
+    function renderLexDrawer(key) {
+      const container = document.getElementById('lex-drawer-content');
+      const entry = LEXICON_DATA[key];
+      if (!container || !entry) return;
+
+      const mode = appState.lang;
+      let html = `<div class="figure-label">${entry.term}</div>`;
+      if (mode === 'bi') {
+        html += `<div class="bi-pair"><p class="lang-en" style="margin:0;">${entry.en}</p><p class="lang-zh" style="margin:0;">${entry.zh}</p></div>`;
+      } else if (mode === 'zh') {
+        html += `<p style="margin:0;">${entry.zh}</p>`;
+      } else if (mode === 'af') {
+        html += `<p style="margin:0;">${entry.af}</p>`;
+      } else {
+        html += `<p style="margin:0;">${entry.en}</p>`;
+      }
+      container.innerHTML = html;
+    }
+
+    function toggleNote(bodyId, btnId) {
+      const body = document.getElementById(bodyId);
+      const btn = document.getElementById(btnId);
+      if (!body || !btn) return;
+      const isHidden = body.hidden;
+      body.hidden = !isHidden;
+      btn.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+    }
+
+    function saveNote(noteKey, value, statusId) {
+      appState.notes[noteKey] = value;
+      const statusEl = document.getElementById(statusId);
+      if (statusEl) {
+        if (value.trim().length > 0) {
+          statusEl.textContent = appState.lang === 'zh'
+            ? `已自动保存（${value.length} 字）`
+            : (appState.lang === 'af' ? `Gestoor (${value.length} karakters)` : `Saved (${value.length} chars)`);
+        } else {
+          statusEl.textContent = ``;
+        }
+      }
+      updateNotesSummary();
+      persistState();
+    }
+
+    function saveChecks() {
+      for (let i = 0; i < 4; i++) {
+        const cb = document.getElementById(`disc-${i + 1}`);
+        if (cb) appState.checks[i] = cb.checked;
+      }
+      persistState();
+    }
+
+    function updateNotesSummary() {
+      const summary = document.getElementById('notes-summary-count');
+      if (!summary) return;
+      const count = Object.keys(appState.notes).filter(function (k) {
+        return appState.notes[k] && appState.notes[k].trim().length > 0;
+      }).length;
+      if (appState.lang === 'zh') {
+        summary.textContent = `已记录 ${count} / 4 则反思笔记`;
+      } else if (appState.lang === 'af') {
+        summary.textContent = `${count} / 4 notas gestoor`;
+      } else {
+        summary.textContent = `${count} / 4 notes saved`;
+      }
+    }
+
+    function exportSermonNotes() {
+      const feedback = document.getElementById('action-feedback');
+      const lines = [
+        `MARRIAGE, DIVORCE, AND REMARRIAGE (Matthew 5:31-32)`,
+        `Sermon Notes — 22 Nov 2026`,
+        `====================================================`,
+        ``,
+        `1. Reflection 01 (Cultural Expectations):`,
+        appState.notes.note1.trim() || `(No note recorded)`,
+        ``,
+        `2. Reflection 02 (Law vs. Loopholes):`,
+        appState.notes.note2.trim() || `(No note recorded)`,
+        ``,
+        `3. Reflection 03 (Creation Pattern — Leave, Cleave, One Flesh):`,
+        appState.notes.note3.trim() || `(No note recorded)`,
+        ``,
+        `4. Reflection 04 (Gospel Hope & Reconciliation):`,
+        appState.notes.note4.trim() || `(No note recorded)`
+      ];
+      const textContent = lines.join('\n');
+
+      if (window.notebookAppApi && typeof window.notebookAppApi.triggerFileDownload === 'function') {
+        window.notebookAppApi.triggerFileDownload({
+          content: textContent,
+          contentType: 'text/plain',
+          encoding: 'UTF-8',
+          filename: 'matthew-5-31-32-sermon-notes.txt'
+        });
+      }
+      if (feedback) {
+        feedback.textContent = appState.lang === 'zh'
+          ? `笔记文件已导出`
+          : (appState.lang === 'af' ? `Notas afgelaai` : `Notes downloaded`);
+      }
+    }
+
+    function clearAllNotes(btn) {
+      const feedback = document.getElementById('action-feedback');
+      if (btn.dataset.armed !== 'true') {
+        btn.dataset.armed = 'true';
+        if (feedback) {
+          feedback.textContent = appState.lang === 'zh'
+            ? `再次点击“清除笔记”以确认清空`
+            : (appState.lang === 'af' ? `Klik weer om alle notas uit te vee` : `Click Clear Notes again to confirm`);
+        }
+        return;
+      }
+      btn.dataset.armed = 'false';
+      appState.notes = { note1: ``, note2: ``, note3: ``, note4: `` };
+      appState.checks = [false, false, false, false];
+      for (let i = 1; i <= 4; i++) {
+        const ta = document.getElementById(`input-note-${i}`);
+        const st = document.getElementById(`status-note-${i}`);
+        const cb = document.getElementById(`disc-${i}`);
+        if (ta) ta.value = ``;
+        if (st) st.textContent = ``;
+        if (cb) cb.checked = false;
+      }
+      updateNotesSummary();
+      if (feedback) {
+        feedback.textContent = appState.lang === 'zh'
+          ? `所有个人笔记已清空`
+          : (appState.lang === 'af' ? `Alle notas is uitgevee` : `All personal notes cleared`);
+      }
+      persistState();
+    }
+
+    function renderCharts() {
+      if (typeof Chart === 'undefined') return;
+
+      const textCol = getToken('--on-surface');
+      const mutedCol = getToken('--on-surface-variant');
+      const gridCol = getToken('--outline-variant');
+      const data1 = getToken('--data-1');
+      const data2 = getToken('--data-2');
+      const data3 = getToken('--data-3');
+      const dataCtx = getToken('--data-context');
+
+      const c1 = document.getElementById('demographicsChart');
+      if (c1) {
+        if (demoChartInstance) demoChartInstance.destroy();
+        const isZh = appState.lang === 'zh';
+        const isAf = appState.lang === 'af';
+
+        const labels1 = isZh
+          ? ['OECD 结婚率 (2000)', 'OECD 结婚率 (当前)', '中国离婚率 (2019)', '中国离婚率 (2023)', '泰国离婚率 (2023)', '美国离婚率 (2023)', 'OECD 平均离婚率']
+          : (isAf
+            ? ['OESO Huwelik (2000)', 'OESO Huwelik (Huidig)', 'China Egskeiding (2019)', 'China Egskeiding (2023)', 'Thailand Egskeiding', 'VSA Egskeiding', 'OESO Egskeiding Gem.']
+            : ['OECD Marriage (2000)', 'OECD Marriage (Now)', 'China Divorce (2019)', 'China Divorce (2023)', 'Thailand Divorce', 'US Divorce', 'OECD Divorce Avg']);
+
+        demoChartInstance = new Chart(c1.getContext('2d'), {
+          type: 'bar',
+          data: {
+            labels: labels1,
+            datasets: [{
+              label: isZh ? '每千人口比率' : (isAf ? 'Koers per 1 000' : 'Rate per 1,000 pop.'),
+              data: [5.1, 3.8, 3.36, 2.0, 2.2, 2.4, 1.79],
+              backgroundColor: [dataCtx, data1, data2, data3, data2, data1, dataCtx],
+              borderRadius: 2
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: 'y',
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: function (ctx) { return `${ctx.parsed.x} / 1,000`; }
+                }
+              }
+            },
+            scales: {
+              x: {
+                beginAtZero: true,
+                max: 6,
+                ticks: { color: mutedCol },
+                grid: { color: gridCol }
+              },
+              y: {
+                ticks: { color: textCol, font: { size: 11 } },
+                grid: { display: false }
+              }
+            }
+          }
+        });
+      }
+
+      const c2 = document.getElementById('discipleshipChart');
+      if (c2) {
+        if (discChartInstance) discChartInstance.destroy();
+        const isZh = appState.lang === 'zh';
+        const isAf = appState.lang === 'af';
+
+        const labels2 = isZh
+          ? ['70–80年代结婚群体', '美国曾婚人群平均', '挂名福音派基督徒', '活跃门徒(最低降幅 -31%)', '高委身传统信徒(降幅达 -97%)']
+          : (isAf
+            ? ['1970s–80s Huwelikskohort', 'VSA Ooit-Getroud Gemiddeld', 'Self-belydende Evangelies', 'Aktiewe Geloof (−31% Laer)', 'Toegewyde Praktyk (−97% Laer)']
+            : ['1970s–80s Marriage Cohort', 'US Ever-Married Average', 'Self-Professed Evangelicals', 'Active Faith (−31% Baseline)', 'High Commitment (−97% Reduction)']);
+
+        discChartInstance = new Chart(c2.getContext('2d'), {
+          type: 'bar',
+          data: {
+            labels: labels2,
+            datasets: [{
+              label: isZh ? '相对离婚水平 / 风险对比' : (isAf ? 'Egskeidingsaandeel / Relatiewe Risiko (%)' : 'Divorce Share / Relative Risk (%)'),
+              data: [46.5, 33, 25, 22.7, 1.0],
+              backgroundColor: [dataCtx, data2, data1, data3, data3],
+              borderRadius: 2
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: function (ctx) { return `${ctx.parsed.y}%`; }
+                }
+              }
+            },
+            scales: {
+              y: {
+                beginAtZero: true,
+                max: 55,
+                ticks: {
+                  color: mutedCol,
+                  callback: function (v) { return `${v}%`; }
+                },
+                grid: { color: gridCol }
+              },
+              x: {
+                ticks: { color: textCol, font: { size: 11 } },
+                grid: { display: false }
+              }
+            }
+          }
+        });
+      }
+    }
+
+    async function persistState() {
+      if (window.notebookAppApi && typeof window.notebookAppApi.setAppState === 'function') {
+        try {
+          await window.notebookAppApi.setAppState({
+            lang: appState.lang,
+            region: appState.region,
+            notes: appState.notes,
+            checks: appState.checks
+          });
+        } catch (err) {
+          // Ignore transient host persistence errors
+        }
+      }
+    }
+
+    function applyRestoredState(saved) {
+      if (!saved || typeof saved !== 'object') return;
+      if (saved.notes && typeof saved.notes === 'object') {
+        appState.notes = {
+          note1: typeof saved.notes.note1 === 'string' ? saved.notes.note1 : ``,
+          note2: typeof saved.notes.note2 === 'string' ? saved.notes.note2 : ``,
+          note3: typeof saved.notes.note3 === 'string' ? saved.notes.note3 : ``,
+          note4: typeof saved.notes.note4 === 'string' ? saved.notes.note4 : ``
+        };
+        for (let i = 1; i <= 4; i++) {
+          const ta = document.getElementById(`input-note-${i}`);
+          const body = document.getElementById(`note-${i}`);
+          const btn = document.getElementById(`toggle-note-${i}`);
+          const val = appState.notes[`note${i}`];
+          if (ta) ta.value = val;
+          if (val && val.trim().length > 0 && body && btn) {
+            body.hidden = false;
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        }
+      }
+      if (Array.isArray(saved.checks)) {
+        for (let i = 0; i < 4; i++) {
+          appState.checks[i] = Boolean(saved.checks[i]);
+          const cb = document.getElementById(`disc-${i + 1}`);
+          if (cb) cb.checked = appState.checks[i];
+        }
+      }
+      if (typeof saved.region === 'string') {
+        filterRegion(saved.region);
+      }
+      if (typeof saved.lang === 'string' && ['en', 'zh', 'af', 'bi'].includes(saved.lang)) {
+        setLanguage(saved.lang);
+      }
+    }
+
+    async function initApp() {
+      if (window.notebookAppApi && typeof window.notebookAppApi.getAppState === 'function') {
+        try {
+          const saved = await window.notebookAppApi.getAppState();
+          if (saved) {
+            applyRestoredState(saved);
+          }
+        } catch (err) {
+          // Continue with default state
+        }
+      }
+
+      updateNotesSummary();
+      renderCharts();
+
+      if (window.matchMedia) {
+        const mq = window.matchMedia('(prefers-color-scheme: dark)');
+        if (typeof mq.addEventListener === 'function') {
+          mq.addEventListener('change', function () {
+            renderCharts();
+          });
+        }
+      }
+
+      if (window.notebookAppApi && typeof window.notebookAppApi.notifyAppReady === 'function') {
+        window.notebookAppApi.notifyAppReady();
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initApp);
+    } else {
+      initApp();
+    }
+  </script>
+</body>
+</html>
