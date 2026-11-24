@@ -1,5 +1,7 @@
-### Matt 5v27-32 The Battle for the Heart
-### 马太福音 5:27-32 心里的交战
+`---`
+Title: "Matthew 马太福音 5:27-32 The Battle for the Heart 心里的交战 (English/Chinese)"
+`---`
+(Date Preached:  26 October 2026)
 
 #### Introduction / 引言
 
@@ -93,10 +95,10 @@ Let us stand and read together..
 
 #### Read Matthew 5:27-32 / 诵读马太福音 5:27-32 (新标点和合本)
 
-27 “You have heard that it was said, ‘Do not commit adultery.’ 28 But I tell you that anyone who looks at a woman lustfully has already committed adultery with her in his heart.
+>27 “You have heard that it was said, ‘Do not commit adultery.’ 28 But I tell you that anyone who looks at a woman lustfully has already committed adultery with her in his heart.
 27「你们听见有话说：『不可奸淫。』28只是我告诉你们，凡看见妇女就动淫念的，这人心里已经与她犯奸淫了。
 
-29 If your right eye causes you to sin, gouge it out and throw it away. It is better for you to lose one part of your body than for your whole body to be thrown into hell. 30 And if your right hand causes you to sin, cut it off and throw it away. It is better for you to lose one part of your body than for your whole body to go into hell.
+>29 If your right eye causes you to sin, gouge it out and throw it away. It is better for you to lose one part of your body than for your whole body to be thrown into hell. 30 And if your right hand causes you to sin, cut it off and throw it away. It is better for you to lose one part of your body than for your whole body to go into hell.
 29若是你的右眼叫你跌倒，就剜出来丢掉，宁可失去百体中的一体，不叫全身丢在地狱里。30若是右手叫你跌倒，就砍下来丢掉，宁可失去百体中的一体，不叫全身下入地狱。」
 
 31 “It has been said, ‘Anyone who divorces his wife must give her a certificate of divorce.’ 32 But I tell you that anyone who divorces his wife, except for marital unfaithfulness, causes her to become an adulteress, and anyone who marries the divorced woman commits adultery.
@@ -146,7 +148,7 @@ Firstly, then..
 
 ##### a. Adultery is not merely an outward act.. (v27) / a. 奸淫不仅仅是外在的行为……（第27节）
 
-27 “You have heard that it was said, ‘Do not commit adultery.’
+>27 “You have heard that it was said, ‘Do not commit adultery.’
 27「你们听见有话说：『不可奸淫。』
 
 We find the law against adultery in the Ten Commandments (Exodus 20:14 and Deut 5:18), where we read “you shall not commit adultery”.
@@ -313,7 +315,7 @@ Jesus’ purpose in Matthew 5 was to use the Law of God to reveal, and indeed to
 As we move to vv. 29-30, notice how Jesus underlines the seriousness of this sin and the importance of timely and decisive action.
 当我们看第29-30节时，请注意耶稣如何强调这种罪的严重性，以及及时采取果断行动的重要性。
 
-29 If your right eye causes you to sin, gouge it out and throw it away. It is better for you to lose one part of your body than for your whole body to be thrown into hell. 30 And if your right hand causes you to sin, cut it off and throw it away. It is better for you to lose one part of your body than for your whole body to go into hell.
+>29 If your right eye causes you to sin, gouge it out and throw it away. It is better for you to lose one part of your body than for your whole body to be thrown into hell. 30 And if your right hand causes you to sin, cut it off and throw it away. It is better for you to lose one part of your body than for your whole body to go into hell.
 29若是你的右眼叫你跌倒，就剜出来丢掉，宁可失去百体中的一体，不叫全身丢在地狱里。30若是右手叫你跌倒，就砍下来丢掉，宁可失去百体中的一体，不叫全身下入地狱。」（新标点和合本）
 
 It goes without saying that Jesus doesn’t actually want us to physically gouge out our eye for lust or cut off our hand for touching what’s forbidden.[^6]
@@ -342,7 +344,6 @@ He addresses both the inflow into the heart and the outflow from the heart.
 Why? A self-reinforcing cycle of sin can develop and continue for months or even years unless it is decisively broken. Notice the pattern in the diagram:
 为什么？因为罪会形成自我强化的循环，如果不果断斩断，可能会持续数月甚至数年。请注意图表中的模式：
 
-<img src="https://1drv.ms/i/c/a28b460cc0654099/IQQWnFWWZivYQre-Ok7jox3hAcr5cIMBxIQV4q0BIML4ilI?width=660" width="660" height="auto" />
 
 The eye feeds the heart, and the heart directs the eye toward what it desires.
 眼睛滋养内心，内心又指引眼睛看向它所渴望的东西。

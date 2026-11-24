@@ -1,7 +1,8 @@
 ### Matt 5v27-32 Die Stryd om die Hart
-
-![[Jesus on Lust and Adultery.png]]
-
+`---`
+Title: "Matteus 5:27-29 Die Stryd om die Hart (Afrikaans)"
+`---`
+(Date Preached:  26 October 2026)
 #### Inleiding
 
 Laat in 2007 het 'n buitengewone regsverslag van die provinsiale hof van Khon Kaen in die noordooste van Thailand nasionale nuusopskrifte gemaak.

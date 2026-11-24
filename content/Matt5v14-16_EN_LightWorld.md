@@ -1,5 +1,8 @@
-
-# You are the Light of the World (Matthew 5:14-16)
+`---`
+Title: "Matthew 5: 14-16 You are the Light of the Word (English)"
+`---`
+(Date Preached:  31 May 2026)
+# Introduction: You are the Light of the World (Matthew 5:14-16)
 
 
 ![[Pasted image 20260623204708.png]]
@@ -11,6 +14,7 @@
 *The Beatitudes (Matt 5:3-12)* describe the attitudes and character of the citizens of the Kingdom of Heaven. The values and lifestyles of Christ’s disciples, as citizens of the *Kingdom of Heaven*, are the complete opposite of those of the Kingdom of the Earth. As a result, those who belong to the *Kingdom of this World* tend to react with hostility towards Christ, his message, and his disciples (Matt 5:9-12). 
 
 >“Blessed are you when people insult you, persecute you and falsely say all kinds of evil against you because of me" (Matt 5:12 NIV)
+
 Hostility is often expressed through disbelief in our message, unbelief in God, and negative attitudes towards Christ, the Gospel, the church, or Christians.  Sometimes, this hostility escalates to slander, discrimination, or even persecution of believers.  I am sure you have seen or experienced all of this.   For this very reason, Jesus reminded us that despite the hostility of *The World* and the potential for persecution, we, as disciples of Christ, must live out our identity and calling as the salt of the earth.
 
 ![[Pasted image 20260623204805.png]]

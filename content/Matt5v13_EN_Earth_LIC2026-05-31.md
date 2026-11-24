@@ -1,4 +1,7 @@
-
+`---`
+Title: "Matthew 5: 13 Anger and Reconciliation (English)"
+`---`
+(Date Preached:  31 May 2026)
 ## Recap
 
 In the Beatitudes, Jesus introduces 'the kingdom of heaven, and outlines the heart attitudes and characteristics of its citizens.  

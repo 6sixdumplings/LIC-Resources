@@ -1,7 +1,9 @@
+`---`
+Title: "Matt 5:21-26 Anger and Reconciliation 愤怒与和好 (English/Chinese)"
+`---`
+(Date Preached:  19 July 2026)
+
 Matthew 5:21-26; Deut 5:17;) Gen 9:6, Exod 20:13;  21:12, Lev 19:17–18, Lev 24:17; Matt 18:15-18, John 3:15, Eph 4:26-27
-
-# Matt 5: 21-26 Anger and Reconciliation 愤怒与和好
-
 # Introduction 引言
 
 Good morning, friends. It’s always a joy to share with you from God’s Word. 早安，朋友们。能与你们分享神的话语总是充满喜乐。

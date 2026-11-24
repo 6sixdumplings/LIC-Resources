@@ -1,7 +1,7 @@
-Matthew 5:21-26; Deut 5:17;) Gen 9:6, Exod 20:13;  21:12, Lev 19:17–18, Lev 24:17; Matt 18:15-18, John 3:15, Eph 4:26-27
-
-# Matthew 5: 21-26 Anger and Reconciliation
-
+`---`
+Title: "Matthew 5: 21-26 Anger and Reconciliation (English)"
+`---`
+(Date Preached:  19 July 2026)
 # Introduction
 
 A root of bitterness can very quickly grow when we allow hurts or wounds to fester in our hearts (Heb 12:15).  Bitterness easily spreads through our lives, poisoning our thoughts, emotions, words, and actions.  Our bitterness is shown through anger, resentment, and insults towards others. We should never allow such a root of bitterness to grow, nor to control our hearts or lives.  We now return to the Sermon on the Mount, where Jesus addresses anger (Matt 5:21-26).
