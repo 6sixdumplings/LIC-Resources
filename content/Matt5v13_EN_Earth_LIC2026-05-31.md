@@ -1,5 +1,5 @@
 `---`
-Title: "Matthew 5: 13 Anger and Reconciliation (English)"
+Title: "Matthew 5: 13 You are the Salt of the Earth (English)"
 `---`
 (Date Preached:  31 May 2026)
 ## Recap
@@ -8,14 +8,13 @@ In the Beatitudes, Jesus introduces 'the kingdom of heaven, and outlines the hea
 
 I had mentioned to you earlier that there’s a connection between the first four beatitudes and the second four beatitudes. 
 
-![[PPT Matt 5v3-9 The Beatitudes.png]]
 - Notice how the structure of the beatitude emphasises that 
 	- It is the 'poor in spirit (v3) who can 'to show mercy' (v7)
 	- the ones who 'who mourn over their sin' (v4), who will become 'pure in heart' (v8)
 	- the meek (v5) who can be  as peacemakers in God's kingdom (v9), and 
 	- Those who seek righteousness (v6) will also be persecuted for righteousness (v10)
 
-#  1. Review: Blessed are the Peacemakers and those who are Persecuted for Righteousness 使人和睦的人有福了，受逼迫的人也有福了 (5:9-12)
+#  1. Review: Blessed are the Peacemakers and those who are Persecuted for Righteousness  (5:9-12)
 
 Firstly, we explored the blessings of peacemaking and persecution (5:9-12).  
 
@@ -33,19 +32,16 @@ On the other hand, we may be tempted to blend into the world so much that we bec
 
  By underlining our identity and calling as the "Salt of the Earth" (v14) and the "Light of the Word (v14-16), Jesus now urges us as his disciples to maintain our distinctiveness,  and fulfil our purpose in the world by being "different and be seen to be different” [^3].   
  ///
-#  2. Disciples of Christ are the Salt of the Earth 基督的门徒是地上的盐 (5:13)。
+#  2. Disciples of Christ are the Salt of the Earth (5:13)。
 
 
 >“You are the salt of the earth. But if the salt loses its saltiness, how can it be made salty again? It is no longer good for anything, except to be thrown out and trampled by men" (Matt 5:13 NIV)
 
-“13「你们是世上的盐。盐若失了味，怎能叫它再咸呢？以后无用，不过丢在外面，被人践踏了” 。（马太福音 5:13 新标点和合本）
-
-## 2.1 Our calling to be "the salt of the earth" 我们蒙召成为“地上的盐” ## (v13a)
+## 2.1 Our calling to be "the salt of the earth"(v13a)
 
 Notice that Jesus bestows upon all his disciples this unique calling to be   "the salt of the earth" (v13a)!≈
 
-| 13a Ὑμεῖς ἐστε τὸ ἅλας τῆς γῆς· | 13a “You are the salt f the earth, | 13a「你们是世上的盐。 |
-| ------------------------------- | ---------------------------------- | ------------ |
+>13a “You are the salt f the earth" 
 
 This is a gracious gift that all believers share as our collective identity and calling "salt of the earth" [^6].  
 
@@ -96,17 +92,13 @@ We as disciples of Christ are therefore essential to the wellbeing and salvation
 
 How can we, as individual Christians, and we as a church collectively,  restrain moral decline in our communities, while at the same time adding the the flavor of God grace and salvation? 
 
-作为个体的基督徒，以及作为整体的教会，我们该如何遏制社区中的道德沦丧，同时又为社区注入上帝恩典与救赎的芬芳？
-
-
-## 2.2 The risk of losing our saltiness 失去咸味的风险 (13b)
+## 2.2 The risk of losing our saltiness  (13b)
 
 *“You are the salt of the earth. But if the salt loses its saltiness, how can it be made salty again? It is no longer good for anything, except to be thrown out and trampled by men" (Matt 5:13 NIV)*
 
 Despite the high calling and privilege of being the 'salt of the earth' (v13), there remains a risk to disciples of Christ that we might loose our saltiness or impact in the world (13b)
 
-| 13b ἐὰν δὲ τὸ ἅλας μωρανθῇ | 13b but if salt has lost its taste, | 13b盐若失了味， |
-| -------------------------- | ----------------------------------- | --------- |
+>13b but if salt has lost its taste,
 
 The GK μωρανθῇ (Vb.Aor.Pas.Sub.3PS) verb form here indicates the possibility that believers instead of influencing the world,  be so influenced by the world that we become insipid or tasteless.  
 
@@ -161,40 +153,31 @@ The Word of God then calls us this morning to make sure that we have 'salt in ou
 
 John Stott writes 
 
-	“Christian saltiness is Christian character as depicted in the beatitudes, committed Christian discipleship exemplified in both deed and word” (Stott 1985, 60 § Matt 5:15)
-	
-	“基督徒的‘盐味’就是《八福》中所描绘的基督徒品格，是言行一致的、全心全意的基督徒门徒生活”（斯托得 1985，60 § 马太福音 5:15）
+>“Christian saltiness is Christian character as depicted in the beatitudes, committed Christian discipleship exemplified in both deed and word” (Stott 1985, 60 § Matt 5:15
 
-	“If Christians become assimilated to non-Christians and contaminated by the impurities of the world, they lose their influence” (Stott 1985, 60 § Matt 5:15).
-	
-	“如果基督徒被非基督徒同化，并受到世俗污秽的玷污，他们就会失去影响力”（斯托得 1985，60 § 马太福音 5:15）。
+>“If Christians become assimilated to non-Christians and contaminated by the impurities of the world, they lose their influence” (Stott 1985, 60 § Matt 5:15).
 
 
 Dr Martin Lloyd-Jones points out that only when we are distinct from the world we become attractive to the world
 
-	"The glory of the gospel is that when the Church is absolutely different from the world, she invariably attracts it. It is then that the world is made to listen to her message, though it may hate it at first” (Stott 1985, 60 § Matt 5:15)
+>"The glory of the gospel is that when the Church is absolutely different from the world, she invariably attracts it. It is then that the world is made to listen to her message, though it may hate it at first” (Stott 1985, 60 § Matt 5:15)
 	
-	“福音的荣耀在于：当教会与世人截然不同时，她总能吸引世人。正是在这种情况下，世人才会倾听她的信息，尽管起初他们或许会憎恶它”（斯托得 1985，60 § 马太福音 5:15）
-
 
 **Reflect, Discuss and Apply** 
 
+> [!NOTE] Discuss
 In what ways may you as an individual disciple be at risk of losing your saltiness, and how can we as a church avoid forfeiting our impact in our community? 
 
-作为一名门徒，你可能会在哪些方面面临失去“盐味”的风险？作为教会，我们又该如何避免在社区中失去影响力？
 
-## 2.3 The warning not to become worthless in Christ's Kingdom  切勿在基督的国度里变得一无是处的警告 (13c)
+## 2.3 The warning not to become worthless in Christ's Kingdom (13c)
 
 We have now seen in 5:13 (1) our calling as disciples of Christ to be the salt of the earth; and  (2) the risk of losing our saltiness. Notice (3) also Jesus' warning against becoming useless or worthless to his Kingdom.  
 
 *“You are the salt of the earth. But if the salt loses its saltiness, how can it be made salty again? **It is no longer good for anything, except to be thrown out and trampled by men"** (Matt 5:13 NIV)*
 
+Jesus' rhetorical question *"how shall its saltiness be restored*  (13c)" is designed to remind us that once our saltiness is gone, it's either difficult or imposible to regain. 
 
-Jesus' rhetorical question *"how shall its saltiness be restored* 怎能叫它再咸呢 (13c)" is designed to remind us that once our saltiness is gone, it's either difficult or imposible to regain. 
-
-13c how shall its saltiness be restored?
-ἐν τίνι ἁλισθήσεται; εἰς οὐδὲν ἰσχύει[^22] [^23]
-怎能叫它再咸呢
+>13c how shall its saltiness be restored?[^22] [^23]
 
 It might be the some followers have lost it's saltiness simply because they have never been true disciples of Christ.  
 
@@ -206,7 +189,7 @@ It is at this point where they have lost their saltiness in God's kingdom, and t
 
 It might also be that Jesus  likely believers who sincerely follows Christ,  yet because they have not dealt with sin in their lives they have lost their distinctiveness in God's kingdom.  As a result their Christian integrity and witness may be destroyed.  Once destroyed it either difficult or impossible to regain.  
 
-Our witness will be  "*no longer good for anything except to be thrown out and trampled under people’s feet.* 以后无用，不过丢在外面，被人践踏了" (13d )
+Our witness will be  "*no longer good for anything except to be thrown out and trampled under people’s feet.* " (13d )
 
 Unbelievers despise the hypocrisy of people who claim to be Christian, and yet their lives shout they they are not. 
 
@@ -296,9 +279,3 @@ Zondervan. 1984. _The Holy Bible: New International Version_. Grand Rapids, MI: 
 	βληθὲν [Vb.Ar.Pass. Par. Sn. Nom.Neut] βάλλω[a](https://ref.ly/logosres/LLS:46.30.4?pos=BALLW)—‘to throw.’ ἔκκοψον αὐτὴν καὶ βάλε ἀπὸ σοῦ ‘cut it off and throw it from you’ [Mt 5:30](https://ref.ly/Mt5.30) (LN 1996, 207 § 5.215)
 	καταπατεῖσθαι [Vb.Pr.Pass.Inf]
 	καταπατέω (katapateō): vb.; ≡ Str [2662](https://ref.ly/logosref/GreekStrongs.2662); TDNT [5.940](https://ref.ly/logosref/TDNT.Vol._5,_Pg._940)—1. LN [19.52](https://ref.ly/logosref/LouwNida.19.52) trample on ([Mt 5:13](https://ref.ly/Mt5.13); [7:6](https://ref.ly/Mt7.6); [Lk 8:5](https://ref.ly/Lk8.5); [12:1](https://ref.ly/Lk12.1)+); 2. LN [88.196](https://ref.ly/logosref/LouwNida.88.196) despise, show utter disdain ([Heb 10:29](https://ref.ly/Heb10.29)+) (Swanson 1997, § 2922
-
-
-#GOM/SermonOnTheMount 
-#Matt5v13-17 
-#peacemakers
-#persecution

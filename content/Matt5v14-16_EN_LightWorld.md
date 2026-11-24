@@ -116,6 +116,7 @@ It is evident, therefore, that the Father and the Son are the source of the ligh
 >"The path of the righteous is like the first gleam of dawn, shining ever brighter till the full light of day. But the way of the wicked is like deep darkness they do not know what makes them stumble” (Prov 4:18-19 NIV).
 
 As we grow deeper in the Word, prayer, and communion with the Father, Son, and Spirit, we will “shine” ever brighter until the full light of day (Prov 4:19).
+
 ### The Light of Hope and Salvation in Christ
 
 Yet, you might be asking what exactly is the content of this light that believers must shine to the world?  The light that we shine is really the hope of God's new kingdom, and our salvation from sin and death through Christ. France (2007, 176 § Matt 5:14) writes “light symbolised the new hope which arose through Jesus’ preaching of the coming of God’s reign” (France 2007, 176 § Matt 5:14). So, then we saw that *You are the Light of the World* (14a).  
