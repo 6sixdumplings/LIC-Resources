@@ -12,7 +12,7 @@ The **Sermon on the Mount series** explores Jesus’ manifesto in Matthew 5, pre
 
 The series begins with **Kingdom Character (Matt 5:3–12)**, where the Beatitudes outline the essential heart dispositions of kingdom citizens. Rather than external rules, Jesus establishes connected pairs where inner poverty of spirit produces mercy, mourning over sin cultivates purity of heart, meekness enables peacemaking, and a longing for righteousness prepares believers to endure persecution.
 
-![[Pasted image 20261124113218.png]]
+![[Sermon on the Mount Overview.png]]
 
 
 This internal character naturally overflows into **Kingdom Witness (Matt 5:13–16)**. Disciples are designated as the **"salt of the earth,"** called to restrain moral decay and add spiritual flavor to society. They are also the **"light of the world,"** functioning as a visible city on a hill and a lamp on a stand whose authentic good deeds shine to direct praise to the Heavenly Father.
