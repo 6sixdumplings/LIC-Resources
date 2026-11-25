@@ -1,19 +1,17 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// Components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
+      GitHub: "https://github.com/6sixdumplings/LIC-Resources",
     },
   }),
 }
 
-// Layout for list pages
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
@@ -21,12 +19,15 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Sermon Manuscripts",
+      folderDefaultState: "open",
+      folderClickBehavior: "collapse", // Prevents 404s when clicking folder names
+    }),
   ],
   right: [],
 }
 
-// Layout for single content pages
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
@@ -39,7 +40,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Sermon Manuscripts",
+      folderDefaultState: "open",
+      folderClickBehavior: "collapse", // Prevents 404s when clicking folder names
+    }),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
