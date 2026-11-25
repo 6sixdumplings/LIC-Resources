@@ -42,7 +42,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    // Graph view removed; Table of Contents fills the right column
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
