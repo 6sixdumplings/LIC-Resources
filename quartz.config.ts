@@ -4,7 +4,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "The Sermon on the Mount Collection",
-    enableSPA: true,
+    enableSPA: false, // <-- Changed to false to prevent layout & font crashes on navigation
     enablePopovers: true,
     analytics: {
       provider: "plausible",
