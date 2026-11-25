@@ -1,6 +1,7 @@
 ---
-Title: "Matthew 马太福音 5:27-32 The Battle for the Heart 心里的交战 (English/Chinese)"
+title: "Matthew 马太福音 5:27-32 The Battle for the Heart 心里的交战 (English/Chinese)"
 ---
+
 (Date Preached:  26 October 2026)
 
 #### Introduction / 引言

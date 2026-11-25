@@ -1,5 +1,5 @@
 ---
-Title: '"Matteus 5:27-29 Die Stryd vir die Hart"
+title: "Matteus 5:27-29 Die Stryd vir die Hart"
 ---
 (Date Preached:  26 October 2026)
 #### Inleiding

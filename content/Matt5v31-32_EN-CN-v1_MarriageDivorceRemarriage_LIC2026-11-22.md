@@ -1,6 +1,7 @@
 ---
-Title:"Matthew 5:31–32: "Matt马太福音 5:31–32 Marriage, Divorce, and Remarriage 婚姻、离婚与再婚"
+title:"Matt马太福音 5:31–32 Marriage, Divorce, and Remarriage 婚姻、离婚与再婚"
 ---
+
 (Date Preached: 22 November 2026
 #### 引言 / Introduction
 
