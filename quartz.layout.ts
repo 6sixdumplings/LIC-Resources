@@ -13,7 +13,7 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// Layout for list/index pages
+// Layout for list pages
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
@@ -26,7 +26,7 @@ export const defaultListPageLayout: PageLayout = {
   right: [],
 }
 
-// Layout for single content pages (Sermon notes)
+// Layout for single content pages
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
@@ -39,13 +39,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Explorer({
-      title: "Sermon Manuscripts",
-      folderDefaultState: "open",
-    }),
+    Component.Explorer(),
   ],
   right: [
-    // Graph view removed; Table of Contents fills top to bottom
+    // Graph view removed; Table of Contents fills the right column
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
