@@ -82,7 +82,7 @@ Navigate directly to individual sermon manuscripts, bilingual study editions, an
   * [[Matt05v13_EN_LIC2026-05-31_Light-of-Earth|📖 English Manuscript: You are the Salt of the Earth (Matt 5:13)]]
 * **Matt 5:14–16: You Are the Light of the World**
   * Date Preached: 31 May 2026
-  * [[Matt05v14-16_EN_LIC2026-05-31_Light-of-World|📖 English Manuscript: You are the Light of the World (Matt 5:14–16)]]
+  * [[Matt05v14-16_EN_LIC2026-05-31_Light-of-World |📖 English Manuscript: You are the Light of the World (Matt 5:14–16)]]
 
 ### 3. Kingdom Ethics (Radical Heart Righteousness)
 * **Matt 5:21–26: Anger & Urgent Reconciliation**
@@ -97,7 +97,7 @@ Navigate directly to individual sermon manuscripts, bilingual study editions, an
 * **Matt 5:31–32: Marriage, Divorce, and Remarriage**
   * Date Preached: 22 November 2026
   * [[Matt05v31-32-EN-v1_MarriageDivorceRemarriage_LIC2026-11-22|📖 English Manuscript (Matt 5:31–32)]]
-  * [[Matt05v31-32_EN-CN-v1_MarriageDivorceRemarriage_LIC2026-11-2|📖 English-Chinese Bilingual Manuscript (Matt 5:31–32)]]
+  * [[Matt05v31-32_EN-CN-v1_LIC2026-11-22_Marriage-Divorce-Remarriage|📖 English-Chinese Bilingual Manuscript (Matt 5:31–32)]]
 
 ---
 
@@ -115,7 +115,7 @@ Navigate directly to individual sermon manuscripts, bilingual study editions, an
   * [[Matt05v09-12_EN-CN_LIC2026-03-31_Peacemakers-Persecuted|Values of the Kingdom of Heaven (Matt 5:9–12)]]
   * [[Matt05v21-26_EN-CN_LIC2026-06-19_Anger-and-Reconciliation|Anger & Reconciliation (Matt 5:21–26)]]
   * [[Matt05v27-29_EN-CN-v3_TheBattleHeart_LIC2026-10|The Battle for the Heart (Matt 5:27–29)]]
-  * [[Matt05v31-32_EN-CN-v1_MarriageDivorceRemarriage_LIC2026-11-2|Marriage, Divorce & Remarriage (Matt 5:31–32)]]
+  * [[Matt05v31-32_EN-CN-v1_LIC2026-11-22_Marriage-Divorce-Remarriage|Marriage, Divorce & Remarriage (Matt 5:31–32)]]
 
 * 🇿🇦 **Afrikaans Translation:**
   * [[Matt5v27-29_AFR-v3_BattleForTheHeart|Die Stryd vir die Hart (Matt 5:27–29)]]
@@ -136,4 +136,4 @@ Navigate directly to individual sermon manuscripts, bilingual study editions, an
 | **Matt 5:27–29** | 26 Oct 2026 | The Battle for the Heart | English / Chinese | [[Matt05v27-29_EN-CN-v3_TheBattleHeart_LIC2026-10]] |
 | **Matt 5:27–29** | 26 Oct 2026 | Die Stryd vir die Hart | Afrikaans | [[Matt5v27-29_AFR-v3_BattleForTheHeart]] |
 | **Matt 5:31–32** | 22 Nov 2026 | Marriage, Divorce & Remarriage | English | [[Matt05v31-32-EN-v1_MarriageDivorceRemarriage_LIC2026-11-22]] |
-| **Matt 5:31–32** | 22 Nov 2026 | Marriage, Divorce & Remarriage | English / Chinese | [[Matt05v31-32_EN-CN-v1_MarriageDivorceRemarriage_LIC2026-11-2]] |
+| **Matt 5:31–32** | 22 Nov 2026 | Marriage, Divorce & Remarriage | English / Chinese | [[Matt05v31-32_EN-CN-v1_LIC2026-11-22_Marriage-Divorce-Remarriage]] |
