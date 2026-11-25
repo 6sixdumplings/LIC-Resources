@@ -1,7 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// components shared across all pages
+// Components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -9,12 +9,11 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "[suspicious link removed]",
     },
   }),
 }
 
-// components for pages that display lists of pages (e.g. tags or folders)
+// Layout for list/index pages
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
@@ -27,7 +26,7 @@ export const defaultListPageLayout: PageLayout = {
   right: [],
 }
 
-// components for single content pages
+// Layout for single content pages (Sermon notes)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
@@ -40,10 +39,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Sermon Manuscripts",
+      folderDefaultState: "open",
+    }),
   ],
   right: [
-    // Component.Graph() removed to give full height to Table of Contents
+    // Graph view removed; Table of Contents fills top to bottom
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
