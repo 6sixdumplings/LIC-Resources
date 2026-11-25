@@ -1,8 +1,7 @@
 ---
-Title: '"Matt 5:7-12 The Manifesto of the Kingdom of Heaven 《天国宣言》 (English/Chinese)"'
-(Date Preached: 22 March 2026)
+Title: "Matt 5:7-12 The Manifesto of the Kingdom of Heaven 《天国宣言》 (English/Chinese)"
 ---
-
+(Date Preached: 22 March 2026)
 ## Introduction: Kingdom Manifesto vs. Human Philosophy引言：天国宣言与人类哲学
 
 It is a joy to continue our journey through the Sermon on the Mount (Matthew 5–7) as we turn to the second set of Beatitudes in Matthew 5:7–12. 

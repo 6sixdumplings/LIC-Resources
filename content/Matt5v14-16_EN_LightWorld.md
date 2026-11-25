@@ -1,6 +1,5 @@
 ---
-Title: '"Matthew 5: 14-16 You are the Light of the Word (English)"'
-(Date Preached: 31 May 2026
+Title: "Matthew 5: 14-16 You are the Light of the Word (English)"
 ---
 (Date Preached:  31 May 2026)
 # Introduction: You are the Light of the World (Matthew 5:14-16)
