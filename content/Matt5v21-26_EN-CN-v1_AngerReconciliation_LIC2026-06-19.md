@@ -1,5 +1,6 @@
 ---
-Title: "Matt 5:21-26 Anger and Reconciliation 愤怒与和好 (English/Chinese)"
+Title: '"Matt 5:21-26 Anger and Reconciliation 愤怒与和好 (English/Chinese)"'
+(Date Preached: 19 July 2026
 ---
 (Date Preached:  19 July 2026)
 

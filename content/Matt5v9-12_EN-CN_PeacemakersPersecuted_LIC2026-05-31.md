@@ -1,5 +1,6 @@
 ---
-Title: "Matt 马太福音 5:9-12 The Values of the Kingdom of Heaven: Peacemakers, Persecuted 天国的核心价值观：使人和睦、与为义受逼迫地 (English/Chinese)"
+Title: '"Matt 马太福音 5:9-12 The Values of the Kingdom of Heaven: Peacemakers, Persecuted 天国的核心价值观：使人和睦、与为义受逼迫地 (English/Chinese)"'
+(Date Preached: 31 May 2026
 ---
 
 ---

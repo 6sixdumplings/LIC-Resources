@@ -1,5 +1,6 @@
 ---
-Title: "Matthew 5: 21-26 Anger and Reconciliation (English)"
+Title: '"Matthew 5: 21-26 Anger and Reconciliation (English)"'
+(Date Preached: 19 July 2026
 ---
 (Date Preached:  19 July 2026)
 # Introduction

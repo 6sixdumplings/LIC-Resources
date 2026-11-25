@@ -1,5 +1,6 @@
 ---
-Title: "Matthew 5:27-32 The Battle for the Heart (English)"
+Title: '"Matthew 5:27-32 The Battle for the Heart (English)"'
+(Date Preached: 10 October 2026
 ---
 (Date Preached:  26 October 2026)
 
