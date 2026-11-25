@@ -1,7 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// Components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -13,7 +12,6 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// Layout for list pages
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
@@ -24,13 +22,12 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer({
       title: "Sermon Manuscripts",
       folderDefaultState: "open",
-      folderClickBehavior: "collapse", // Treats folder clicks as expand/collapse toggles
+      folderClickBehavior: "collapse", // Prevents 404s when clicking folder names
     }),
   ],
   right: [],
 }
 
-// Layout for single content pages
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
@@ -46,7 +43,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer({
       title: "Sermon Manuscripts",
       folderDefaultState: "open",
-      folderClickBehavior: "collapse", // Treats folder clicks as expand/collapse toggles
+      folderClickBehavior: "collapse", // Prevents 404s when clicking folder names
     }),
   ],
   right: [
