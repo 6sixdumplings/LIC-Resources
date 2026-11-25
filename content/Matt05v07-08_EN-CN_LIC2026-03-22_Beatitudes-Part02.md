@@ -1,5 +1,5 @@
 ---
-title: "Matt 5:7-12 The Manifesto of the Kingdom of Heaven 《天国宣言》 (English/Chinese)"
+title: "Matt 5:7-12 The Manifesto of the Kingdom of Heaven (English/Chinese)"
 ---
 (Date Preached: 22 March 2026)
 ## Introduction: Kingdom Manifesto vs. Human Philosophy引言：天国宣言与人类哲学

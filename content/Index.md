@@ -1,14 +1,6 @@
 ---
-title: "The Sermon on the Mount Collection — Home Index"
+title: "The Sermon on the Mount — Home Index"
 description: "A central jump site and narrative guide for the Matthew 5-7 sermon series in 2026."
-tags:
-  - theology
-  - sermon-series
-  - matthew5
-  - lic-resources
-aliases:
-  - Sermon on the Mount Index
-  - Matthew 5 Jump Site
 ---
 
 ## 🗂️ Sermon Directory 
