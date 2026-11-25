@@ -11,6 +11,42 @@ aliases:
   - Matthew 5 Jump Site
 ---
 
+## 🗂️ Sermon Directory 
+
+Navigate directly to individual sermon manuscripts, bilingual study editions, and translation notes.
+
+### 1. Kingdom Character (The Beatitudes)
+* **Matt 5:7–8: Blessed are the Merciful and Pure in Heart**
+  * Date Preached: 22 March 2026
+  * [[Matt05v07-08_EN-CN_LIC2026-03-22_Beatitudes-Part02|📖 English-Chinese Bilingual Manuscript (Matt 5:7–8)]]
+* **Matt 5:9–12: Blessed are the Peacemakers and the Persecuted**
+  * Date Preached: 31 March 2026
+  * [[Matt05v09-12_EN-CN_LIC2026-03-31_Peacemakers-Persecuted|📖 English-Chinese Bilingual Manuscript (Matt 5:9–12)]]
+
+### 2. Kingdom Witness (Salt and Light)
+* **Matt 5:13: You Are the Salt of the Earth**
+  * Date Preached: 31 May 2026
+  * [[Matt05v13_EN_LIC2026-05-31_Light-of-Earth|📖 English Manuscript: You are the Salt of the Earth (Matt 5:13)]]
+* **Matt 5:14–16: You Are the Light of the World**
+  * Date Preached: 31 May 2026
+  * [[Matt05v14-16_EN_LIC2026-05-31_Light-of-World |📖 English Manuscript: You are the Light of the World (Matt 5:14–16)]]
+
+### 3. Kingdom Ethics (Radical Heart Righteousness)
+* **Matt 5:21–26: Anger & Urgent Reconciliation**
+  * Date Preached: 19 July 2026
+  * [[Matt05v21-26_EN_LIC2026-07-19_Anger-and-Reconciliation|📖 English Manuscript (Matt 5:21–26)]]
+  * [[Matt05v21-26_EN-CN_LIC2026-06-19_Anger-and-Reconciliation|📖 English-Chinese Bilingual Manuscript (Matt 5:21–26)]]
+* **Matt 5:27–30: Battle for the Heart (Lust & Purity)**
+  * Date Preached: 26 October 2026
+  * [[Matt05v27-32_EN-v3_BattleHeart_LIC2026-10-26|📖 English Manuscript (Matt 5:27–32)]]
+  * [[Matt05v27-29_EN-CN-v3_TheBattleHeart_LIC2026-10|📖 English-Chinese Bilingual Manuscript (Matt 5:27–29)]]
+  * [[Matt5v27-29_AFR-v3_BattleForTheHeart|🇿🇦 Afrikaans Translation: Die Stryd vir die Hart (Matt 5:27–29)]]
+* **Matt 5:31–32: Marriage, Divorce, and Remarriage**
+  * Date Preached: 22 November 2026
+  * [[Matt05v31-32-EN-v1_MarriageDivorceRemarriage_LIC2026-11-22|📖 English Manuscript (Matt 5:31–32)]]
+  * [[Matt05v31-32_EN-CN-v1_LIC2026-11-22_Marriage-Divorce-Remarriage|📖 English-Chinese Bilingual Manuscript (Matt 5:31–32)]]
+
+---
 # The Sermon on the Mount Collection: Kingdom Character, Witness, and Heart Ethics
 
 > *"You are the salt of the earth... You are the light of the world. A city set on a hill cannot be hidden."* — **Matthew 5:13–14**
@@ -64,63 +100,7 @@ Exposing legalistic loopholes, Jesus introduces the radical formula: *"You have 
 
 ---
 
-## 🗂️ Sermon Directory & Jump Station
 
-Navigate directly to individual sermon manuscripts, bilingual study editions, and translation notes.
-
-### 1. Kingdom Character (The Beatitudes)
-* **Matt 5:7–8: Blessed are the Merciful and Pure in Heart**
-  * Date Preached: 22 March 2026
-  * [[Matt05v07-08_EN-CN_LIC2026-03-22_Beatitudes-Part02|📖 English-Chinese Bilingual Manuscript (Matt 5:7–8)]]
-* **Matt 5:9–12: Blessed are the Peacemakers and the Persecuted**
-  * Date Preached: 31 March 2026
-  * [[Matt05v09-12_EN-CN_LIC2026-03-31_Peacemakers-Persecuted|📖 English-Chinese Bilingual Manuscript (Matt 5:9–12)]]
-
-### 2. Kingdom Witness (Salt and Light)
-* **Matt 5:13: You Are the Salt of the Earth**
-  * Date Preached: 31 May 2026
-  * [[Matt05v13_EN_LIC2026-05-31_Light-of-Earth|📖 English Manuscript: You are the Salt of the Earth (Matt 5:13)]]
-* **Matt 5:14–16: You Are the Light of the World**
-  * Date Preached: 31 May 2026
-  * [[Matt05v14-16_EN_LIC2026-05-31_Light-of-World |📖 English Manuscript: You are the Light of the World (Matt 5:14–16)]]
-
-### 3. Kingdom Ethics (Radical Heart Righteousness)
-* **Matt 5:21–26: Anger & Urgent Reconciliation**
-  * Date Preached: 19 July 2026
-  * [[Matt05v21-26_EN_LIC2026-07-19_Anger-and-Reconciliation|📖 English Manuscript (Matt 5:21–26)]]
-  * [[Matt05v21-26_EN-CN_LIC2026-06-19_Anger-and-Reconciliation|📖 English-Chinese Bilingual Manuscript (Matt 5:21–26)]]
-* **Matt 5:27–30: Battle for the Heart (Lust & Purity)**
-  * Date Preached: 26 October 2026
-  * [[Matt05v27-32_EN-v3_BattleHeart_LIC2026-10-26|📖 English Manuscript (Matt 5:27–32)]]
-  * [[Matt05v27-29_EN-CN-v3_TheBattleHeart_LIC2026-10|📖 English-Chinese Bilingual Manuscript (Matt 5:27–29)]]
-  * [[Matt5v27-29_AFR-v3_BattleForTheHeart|🇿🇦 Afrikaans Translation: Die Stryd vir die Hart (Matt 5:27–29)]]
-* **Matt 5:31–32: Marriage, Divorce, and Remarriage**
-  * Date Preached: 22 November 2026
-  * [[Matt05v31-32-EN-v1_MarriageDivorceRemarriage_LIC2026-11-22|📖 English Manuscript (Matt 5:31–32)]]
-  * [[Matt05v31-32_EN-CN-v1_LIC2026-11-22_Marriage-Divorce-Remarriage|📖 English-Chinese Bilingual Manuscript (Matt 5:31–32)]]
-
----
-
-## 🌐 Quick Directory by Language Edition
-
-* 🇬🇧 **English Manuscripts:**
-  * [[Matt05v13_EN_LIC2026-05-31_Light-of-Earth|Salt of the Earth (Matt 5:13)]]
-  * [[Matt05v14-16_EN_LIC2026-05-31_Light-of-World|Light of the World (Matt 5:14–16)]]
-  * [[Matt05v21-26_EN_LIC2026-07-19_Anger-and-Reconciliation|Anger & Reconciliation (Matt 5:21–26)]]
-  * [[Matt05v27-32_EN-v3_BattleHeart_LIC2026-10-26|The Battle for the Heart (Matt 5:27–32)]]
-  * [[Matt05v31-32-EN-v1_MarriageDivorceRemarriage_LIC2026-11-22|Marriage, Divorce & Remarriage (Matt 5:31–32)]]
-
-* 🇨🇳 **English-Chinese Bilingual Editions (中英双语):**
-  * [[Matt05v07-08_EN-CN_LIC2026-03-22_Beatitudes-Part02|The Manifesto of the Kingdom of Heaven (Matt 5:7–8)]]
-  * [[Matt05v09-12_EN-CN_LIC2026-03-31_Peacemakers-Persecuted|Values of the Kingdom of Heaven (Matt 5:9–12)]]
-  * [[Matt05v21-26_EN-CN_LIC2026-06-19_Anger-and-Reconciliation|Anger & Reconciliation (Matt 5:21–26)]]
-  * [[Matt05v27-29_EN-CN-v3_TheBattleHeart_LIC2026-10|The Battle for the Heart (Matt 5:27–29)]]
-  * [[Matt05v31-32_EN-CN-v1_LIC2026-11-22_Marriage-Divorce-Remarriage|Marriage, Divorce & Remarriage (Matt 5:31–32)]]
-
-* 🇿🇦 **Afrikaans Translation:**
-  * [[Matt5v27-29_AFR-v3_BattleForTheHeart|Die Stryd vir die Hart (Matt 5:27–29)]]
-
----
 
 ## 📋 Comprehensive Source Master Inventory
 
