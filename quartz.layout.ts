@@ -8,7 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
+      GitHub: "https://github.com/6sixdumplings/LIC-Resources",
     },
   }),
 }
@@ -21,7 +21,11 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Sermon Manuscripts",
+      folderDefaultState: "open",
+      folderClickBehavior: "collapse", // Treats folder clicks as expand/collapse toggles
+    }),
   ],
   right: [],
 }
@@ -39,7 +43,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Sermon Manuscripts",
+      folderDefaultState: "open",
+      folderClickBehavior: "collapse", // Treats folder clicks as expand/collapse toggles
+    }),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
