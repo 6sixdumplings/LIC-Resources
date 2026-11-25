@@ -1,104 +1,139 @@
 ---
-title: "The Sermon on the Mount — Home Index"
+title: "The Sermon on the Mount Collection — Home Index"
+description: "A central jump site and narrative guide for the Matthew 5-7 sermon series in 2026."
+tags:
+  - theology
+  - sermon-series
+  - matthew5
+  - lic-resources
+aliases:
+  - Sermon on the Mount Index
+  - Matthew 5 Jump Site
 ---
 
-![[Sermon on the Mount Overview.png]]
+# The Sermon on the Mount Collection: Kingdom Character, Witness, and Heart Ethics
 
 > *"You are the salt of the earth... You are the light of the world. A city set on a hill cannot be hidden."* — **Matthew 5:13–14**
 
-Welcome to **The Sermon on the Mount Collection**, a digital sermon and bible study guide repository 
-
-The **Sermon on the Mount series** explores Jesus’ manifesto in Matthew 5, presenting a progressive framework for spiritual transformation, public witness, and radical heart ethics[1][2].
-
-The series begins with **Kingdom Character (Matt 5:3–12)**, where the Beatitudes outline the essential heart dispositions of kingdom citizens. Rather than external rules, Jesus establishes connected pairs where inner poverty of spirit produces mercy, mourning over sin cultivates purity of heart, meekness enables peacemaking, and a longing for righteousness prepares believers to endure persecution.
-
-This internal character naturally overflows into **Kingdom Witness (Matt 5:13–16)**. Disciples are designated as the **"salt of the earth,"** called to restrain moral decay and add spiritual flavor to society. They are also the **"light of the world,"** functioning as a visible city on a hill and a lamp on a stand whose authentic good deeds shine to direct praise to the Heavenly Father.
-
-Finally, the series addresses **Kingdom Ethics (Matt 5:21–32)**, contrasting superficial legalism with Christ’s higher righteousness. Through His repeated formula, _"You have heard that it was said... but I tell you,"_ Jesus exposes the roots of sin within the human heart:
-
-- **Anger & Reconciliation (5:21–26)**: Jesus reveals that murder begins in settled resentment and abusive insults, requiring believers to prioritize immediate reconciliation with others before offering worship.
-
-- **Lust & Purity (5:27–30)**: Adultery is traced to intentional, covetous lust in the mind, demanding radical, decisive action to cut off sinful influences before they cause spiritual destruction.
-
-- **Marriage & Covenant Faithfulness (5:31–32)**: Rebutting legalistic loopholes for casual divorce, Jesus upholds God’s original creation design of lifelong one-flesh unity.
-
-Together, the series demonstrates that true kingdom righteousness is not mere behavioral management, but an inside-out transformation grounded in Christ's grace
-
----
-## Sermon Outlines
-Select a passage below to read full manuscripts, bilingual editions, and teaching slides:
-
-### 1. Blessed are the Merciful and Pure in Heart (Matt 5:7-8)
-
-**Preach Date:** 22 March 2026 | **Theme**: Explores the second table of the Beatitudes, contrasting legalistic morality with Christ's transformed inner life that produces divine mercy, heart purity, relational peacemaking, and joyful endurance under hostility.
-
-Your are the Salt of the Earth (Chinese)
-* Blessed are the Merciful and Pure in Heart  (English)
-* [[Matt5v7-8_EN-CN_Beatitudes_Part1_LIC2026-03-22|Blessed are the Merciful and Pure in Heart  (English/Chinese)]]
-* Blessed are the Merciful and Pure in Heart  (Afrikaans)
-
-### 2. Blessed are the Peacemakers and the Persecuted (Matt 9:9-12)
- **Preached:** April, 2026 | **Theme:** Explores the second table of the Beatitudes, contrasting legalistic morality with Christ's transformed inner life that produces divine mercy, heart purity, relational peacemaking, and joyful endurance under hostility
- 
-* Blessed are the Peacemakers and the Persecuted (English)
-* Blessed are the Peacemakers and the Persecuted (English/Chinese)
-*  Blessed are the Peacemakers and the Persecuted (Afrikaans)
-*
-###  3. Salt of the Earth (Matt 5:13)
-* **Preached:** May 31, 2026 | **Theme:** Restraining moral decay and bringing divine flavor to society.
-
-* [[Matt5v13_EN_Earth_LIC2026-05-31 |You Are the Salt of the Earth (English)]]
-* Your are the Salt of the Earth (Chinese)
-* You are the Salt of the Earth (Afrikaans)
----
-
-### 4. Light of the World (Matt 5:14–16)
-* **Preached:** June 21, 2026 | **Theme:** Living as a shining city on a hill through visible good deeds.
-
-*  [[Matt5v14-16_EN_LightWorld|You Are the Light of the World (English)]]
-* Your are the Light of the Word (Chinese)
-* You are the Light of the World (Afrikaans)
----
-
-### 5. Anger & Reconciliation (Matt 5:21–26)
-* **Preached:** July 19, 2026 | **Theme:** Jesus reinterprets the 6th Commandment: unresolved anger carries the gravity of murder.
-
-* [[Matt5v21-26_EN-v1_AngerReconciliation_LIC2026-07-19|Anger and Reconciliation (English)]]
-* [[Matt5v21-26_EN-CN-v1_AngerReconciliation_LIC2026-06-19|Anger and Reconciliation 愤怒与和好 (English/Chinese)]]
-* Anger and Reconciliation (Afrikaans)
+Welcome to **The Sermon on the Mount Collection**. This repository serves as a central jump site and narrative roadmap for the Matthew 5 sermon series preached at **Lakeside International Church (LIC)** in 2026.
 
 ---
 
-### 6. The Battle for the Heart: Lust & Adultery (Matt 5:27–30)
-* **Preached:** October 26, 2026 | **Theme:** Sin begins in the mind; Christ calls for decisive mortification of sinful influences.
+## 📖 The Narrative Arc of Matthew 5
 
-* [[The Battle for the Heart (English)]] 
-* [[Matt5v27-29_AFR-v3_BattleForTheHeart|The Battle for the Heart (Afrikaans)]]
-* [[Matt5v27-29_EN-CN-v3_TheBattleHeart_LIC2026-10|The Battle for the Heart (English/Chinese)]]
+The Sermon on the Mount represents Jesus’ definitive manifesto on citizenship in the Kingdom of Heaven. Rather than offering isolated moral maxims, Jesus lays out a tightly integrated, progressive framework for heart transformation.
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                          THE NARRATIVE FLOW                             │
+├─────────────────────────────────────────────────────────────────────────┤
+│ 1. KINGDOM CHARACTER (Matt 5:3–12)                                      │
+│    Internal transformation through the Beatitudes                       │
+│    └─► Poor in Spirit ──► Mourning ──► Meekness ──► Hungering           │
+│                                                                         │
+│ 2. KINGDOM WITNESS (Matt 5:13–16)                                       │
+│    Public impact of transformed citizens                                │
+│    ├─► Salt of the Earth (Moral Preservation & Spiritual Flavor)        │
+│    └─► Light of the World (Visible Good Deeds for God's Glory)          │
+│                                                                         │
+│ 3. KINGDOM ETHICS (Matt 5:21–32)                                        │
+│    Radical heart-level righteousness replacing legalistic loopholes     │
+│    ├─► Anger & Bitterness ──► Urgent Reconciliation (5:21–26)           │
+│    ├─► Lust & Covetousness ──► Radical Mortification of Sin (5:27–30)   │
+│    └─► Marital Breakdown   ──► Covenant Faithfulness (5:31–32)          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### 1. Kingdom Character: The Beatitudes (Matt 5:3–12)
+Jesus begins not with commands, but with blessings (*macarisms*). The Beatitudes describe the inner heart dispositions of kingdom citizens:
+* **The Needy & Merciful Heart**: Those who are *poor in spirit* (v.3) recognize spiritual bankruptcy, producing *mercy* toward others (v.7).
+* **The Repentant & Pure Heart**: Those who *mourn over sin* (v.4) are purified within, becoming *pure in heart* (v.8).
+* **The Humble & Peacemaking Heart**: The *meek* (v.5) yield self-will to become active *peacemakers* (v.9).
+* **The Righteous & Enduring Heart**: Those who *hunger for righteousness* (v.6) endure *persecution* for Christ's sake (v.10–12).
+
+### 2. Kingdom Witness: Salt and Light (Matt 5:13–16)
+Transformed character flows into public testimony:
+* **Salt of the Earth (v.13)**: Restraining moral decay in society while enriching the world with gospel truth. Losing "saltiness" means compromising until witness becomes worthless.
+* **Light of the World (v.14–16)**: Functioning as a city set on a hill. Authentic faith shines through good deeds (*kalos*) that direct praise to the Heavenly Father.
+
+### 3. Kingdom Ethics: Heart Transformation (Matt 5:21–32)
+Exposing legalistic loopholes, Jesus introduces the radical formula: *"You have heard that it was said... but I tell you."*
+* **Anger & Reconciliation (v.21–26)**: Murder originates in unresolved resentment and contemptuous insults (*Raca*). Urgent reconciliation must precede worship.
+* **Lust & Purity (v.27–30)**: Adultery begins in intentional lust. Jesus commands radical, decisive mortification of sin to sever temptation at its root.
+* **Marriage & Covenant Faithfulness (v.31–32)**: Rebutting casual divorce allowances, Jesus upholds God's creation design of lifelong marital fidelity.
 
 ---
 
-###  7. Marriage, Divorce & Remarriage (Matt 5:31–32)
-* **Preached:** November 22, 2026 | **Theme:** Upholding God's original creation design for covenantal marriage against legalistic loopholes.
+## 🗂️ Sermon Directory & Jump Station
 
-*  [[Matt5v31-32-EN-v1_MarriageDivorceRemarriage_LIC2026-11-22| Marriage, Divorce & Remarriage (English)]]
-* [[Matt5v31-32_EN-CN-v1_MarriageDivorceRemarriage_LIC2026-11-22| Marriage, Divorce & Remarriage(English/Chinese)]]
+Navigate directly to individual sermon manuscripts, bilingual study editions, and translation notes.
+
+### 1. Kingdom Character (The Beatitudes)
+* **Matt 5:7–8: Blessed are the Merciful and Pure in Heart**
+  * Date Preached: 22 March 2026
+  * [[Matt05v07-08_EN-CN_LIC2026-03-22_Beatitudes-Part02|📖 English-Chinese Bilingual Manuscript (Matt 5:7–8)]]
+* **Matt 5:9–12: Blessed are the Peacemakers and the Persecuted**
+  * Date Preached: 31 March 2026
+  * [[Matt05v09-12_EN-CN_LIC2026-03-31_Peacemakers-Persecuted|📖 English-Chinese Bilingual Manuscript (Matt 5:9–12)]]
+
+### 2. Kingdom Witness (Salt and Light)
+* **Matt 5:13: You Are the Salt of the Earth**
+  * Date Preached: 31 May 2026
+  * [[Matt05v13_EN_LIC2026-05-31_Light-of-Earth|📖 English Manuscript: You are the Salt of the Earth (Matt 5:13)]]
+* **Matt 5:14–16: You Are the Light of the World**
+  * Date Preached: 31 May 2026
+  * [[Matt05v14-16_EN_LIC2026-05-31_Light-of-World|📖 English Manuscript: You are the Light of the World (Matt 5:14–16)]]
+
+### 3. Kingdom Ethics (Radical Heart Righteousness)
+* **Matt 5:21–26: Anger & Urgent Reconciliation**
+  * Date Preached: 19 July 2026
+  * [[Matt05v21-26_EN_LIC2026-07-19_Anger-and-Reconciliation|📖 English Manuscript (Matt 5:21–26)]]
+  * [[Matt05v21-26_EN-CN_LIC2026-06-19_Anger-and-Reconciliation|📖 English-Chinese Bilingual Manuscript (Matt 5:21–26)]]
+* **Matt 5:27–30: Battle for the Heart (Lust & Purity)**
+  * Date Preached: 26 October 2026
+  * [[Matt05v27-32_EN-v3_BattleHeart_LIC2026-10-26|📖 English Manuscript (Matt 5:27–32)]]
+  * [[Matt05v27-29_EN-CN-v3_TheBattleHeart_LIC2026-10|📖 English-Chinese Bilingual Manuscript (Matt 5:27–29)]]
+  * [[Matt5v27-29_AFR-v3_BattleForTheHeart|🇿🇦 Afrikaans Translation: Die Stryd vir die Hart (Matt 5:27–29)]]
+* **Matt 5:31–32: Marriage, Divorce, and Remarriage**
+  * Date Preached: 22 November 2026
+  * [[Matt05v31-32-EN-v1_MarriageDivorceRemarriage_LIC2026-11-22|📖 English Manuscript (Matt 5:31–32)]]
+  * [[Matt05v31-32_EN-CN-v1_MarriageDivorceRemarriage_LIC2026-11-2|📖 English-Chinese Bilingual Manuscript (Matt 5:31–32)]]
 
 ---
 
-## Quick Language Directory
+## 🌐 Quick Directory by Language Edition
 
 * 🇬🇧 **English Manuscripts:**
-  * [[Matt5v13_EN_Earth_LIC2026-05-31|Salt of the Earth (Matt 5:13)]]
-  * [[Matt5v14-16_EN_LightWorld_LIC2026_06_21|Light of the World (Matt 5:14–16)]]
-  * [[Mat_5v21-26_EN-v1_AngerReconciliation_LIC2026-07-19|Anger & Reconciliation (Matt 5:21–26)]]
-  * [[Matt5v31-32-EN-v1_MarriageDivorceRemarriage_LIC2026-11-22|Marriage, Divorce & Remarriage (Matt 5:31–32)]]
+  * [[Matt05v13_EN_LIC2026-05-31_Light-of-Earth|Salt of the Earth (Matt 5:13)]]
+  * [[Matt05v14-16_EN_LIC2026-05-31_Light-of-World|Light of the World (Matt 5:14–16)]]
+  * [[Matt05v21-26_EN_LIC2026-07-19_Anger-and-Reconciliation|Anger & Reconciliation (Matt 5:21–26)]]
+  * [[Matt05v27-32_EN-v3_BattleHeart_LIC2026-10-26|The Battle for the Heart (Matt 5:27–32)]]
+  * [[Matt05v31-32-EN-v1_MarriageDivorceRemarriage_LIC2026-11-22|Marriage, Divorce & Remarriage (Matt 5:31–32)]]
 
 * 🇨🇳 **English-Chinese Bilingual Editions (中英双语):**
-  * [[Matt5v21-26_EN-CN-v1_AngerReconciliation_LIC2026-06-19|Anger & Reconciliation (双语版)]]
-  * [[Matt5v27-32__EN-CN-v4_The_BattleHeart__LIC2026-10|The Battle for the Heart (双语完整版)]]
-  * [[Matt5v27-29_EN-CN-v3_TheBattleHeart_LIC2026-10|The Battle for the Heart (双语精简版)]]
-  * [[Matt5v31-32_EN-CN-v1_MarriageDivorceRemarriage_LIC2026-11-22|Marriage, Divorce & Remarriage (双语版)]]
+  * [[Matt05v07-08_EN-CN_LIC2026-03-22_Beatitudes-Part02|The Manifesto of the Kingdom of Heaven (Matt 5:7–8)]]
+  * [[Matt05v09-12_EN-CN_LIC2026-03-31_Peacemakers-Persecuted|Values of the Kingdom of Heaven (Matt 5:9–12)]]
+  * [[Matt05v21-26_EN-CN_LIC2026-06-19_Anger-and-Reconciliation|Anger & Reconciliation (Matt 5:21–26)]]
+  * [[Matt05v27-29_EN-CN-v3_TheBattleHeart_LIC2026-10|The Battle for the Heart (Matt 5:27–29)]]
+  * [[Matt05v31-32_EN-CN-v1_MarriageDivorceRemarriage_LIC2026-11-2|Marriage, Divorce & Remarriage (Matt 5:31–32)]]
 
 * 🇿🇦 **Afrikaans Translation:**
-  * [[Matt5v27-32-AFR-v3-BattleForTheHeart(translation)|Die Stryd om die Hart (Afrikaans)]]
+  * [[Matt5v27-29_AFR-v3_BattleForTheHeart|Die Stryd vir die Hart (Matt 5:27–29)]]
+
+---
+
+## 📋 Comprehensive Source Master Inventory
+
+| Passage | Preach Date | Title / Topic | Format / Language | Valid Target Link |
+| :--- | :--- | :--- | :--- | :--- |
+| **Matt 5:7–8** | 22 Mar 2026 | Beatitudes: Mercy & Purity | English / Chinese | [[Matt05v07-08_EN-CN_LIC2026-03-22_Beatitudes-Part02]] |
+| **Matt 5:9–12** | 31 Mar 2026 | Peacemakers & Persecuted | English / Chinese | [[Matt05v09-12_EN-CN_LIC2026-03-31_Peacemakers-Persecuted]] |
+| **Matt 5:13** | 31 May 2026 | You are the Salt of the Earth | English | [[Matt05v13_EN_LIC2026-05-31_Light-of-Earth]] |
+| **Matt 5:14–16** | 31 May 2026 | You are the Light of the World | English | [[Matt05v14-16_EN_LIC2026-05-31_Light-of-World]] |
+| **Matt 5:21–26** | 19 Jul 2026 | Anger & Reconciliation | English | [[Matt05v21-26_EN_LIC2026-07-19_Anger-and-Reconciliation]] |
+| **Matt 5:21–26** | 19 Jul 2026 | Anger & Reconciliation | English / Chinese | [[Matt05v21-26_EN-CN_LIC2026-06-19_Anger-and-Reconciliation]] |
+| **Matt 5:27–32** | 26 Oct 2026 | The Battle for the Heart | English | [[Matt05v27-32_EN-v3_BattleHeart_LIC2026-10-26]] |
+| **Matt 5:27–29** | 26 Oct 2026 | The Battle for the Heart | English / Chinese | [[Matt05v27-29_EN-CN-v3_TheBattleHeart_LIC2026-10]] |
+| **Matt 5:27–29** | 26 Oct 2026 | Die Stryd vir die Hart | Afrikaans | [[Matt5v27-29_AFR-v3_BattleForTheHeart]] |
+| **Matt 5:31–32** | 22 Nov 2026 | Marriage, Divorce & Remarriage | English | [[Matt05v31-32-EN-v1_MarriageDivorceRemarriage_LIC2026-11-22]] |
+| **Matt 5:31–32** | 22 Nov 2026 | Marriage, Divorce & Remarriage | English / Chinese | [[Matt05v31-32_EN-CN-v1_MarriageDivorceRemarriage_LIC2026-11-2]] |
