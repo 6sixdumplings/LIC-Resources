@@ -1,8 +1,17 @@
 ---
-title: The Sermon on the Mount Collection (Matthew 5-7
+title: "The Sermon on the Mount — Home Index"
+description: "A central jump site and narrative guide for the Matthew 5-7 sermon series preached at Lakeside International Church (LIC) in 2026."
+tags:
+  - bible-studies
+  - sermon-series
+  - Sermon
+  - lic-resources
+aliases:
+  - Sermon on the Mount Index
+  - Matthew 5-7 Jump Site
 ---
-![[Sermon on the Mount Overview.png]]
 
+![[Sermon on the Mount Overview.png]]
 
 > *"You are the salt of the earth... You are the light of the world. A city set on a hill cannot be hidden."* — **Matthew 5:13–14**
 
@@ -11,7 +20,6 @@ Welcome to **The Sermon on the Mount Collection**, a digital sermon and bible st
 The **Sermon on the Mount series** explores Jesus’ manifesto in Matthew 5, presenting a progressive framework for spiritual transformation, public witness, and radical heart ethics[1][2].
 
 The series begins with **Kingdom Character (Matt 5:3–12)**, where the Beatitudes outline the essential heart dispositions of kingdom citizens. Rather than external rules, Jesus establishes connected pairs where inner poverty of spirit produces mercy, mourning over sin cultivates purity of heart, meekness enables peacemaking, and a longing for righteousness prepares believers to endure persecution.
-
 
 This internal character naturally overflows into **Kingdom Witness (Matt 5:13–16)**. Disciples are designated as the **"salt of the earth,"** called to restrain moral decay and add spiritual flavor to society. They are also the **"light of the world,"** functioning as a visible city on a hill and a lamp on a stand whose authentic good deeds shine to direct praise to the Heavenly Father.
 
